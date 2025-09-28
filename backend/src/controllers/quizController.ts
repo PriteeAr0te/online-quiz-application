@@ -3,6 +3,20 @@ import mongoose from "mongoose";
 import Quiz, { IQuestion, IQuiz } from "../models/Quiz";
 
 
+export const getAllCategories = async (_req: Request, res: Response): Promise<void> => {
+    try {
+        const categories = await Quiz.distinct("category").lean();
+        if (categories.length === 0) { res.status(404).json({ message: "No categories found" }); return; }
+
+        res.status(200).json({ categories });
+        return;
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ message: "Internal server error" });
+        return;
+    }
+};
+
 export const getQuiz = async (req: Request, res: Response): Promise<void> => {
     try {
         const { id } = req.params as { id: string };
@@ -81,20 +95,6 @@ export const getQuizByCategory = async (req: Request, res: Response): Promise<vo
         if (quizzes.length === 0) { res.status(404).json({ message: "No quizzes found for this category" }); return; }
 
         res.status(200).json({ quizzes });
-        return;
-    } catch (error) {
-        console.log(error);
-        res.status(500).json({ message: "Internal server error" });
-        return;
-    }
-};
-
-export const getAllCategories = async (_req: Request, res: Response): Promise<void> => {
-    try {
-        const categories = await Quiz.distinct("category").lean();
-        if (categories.length === 0) { res.status(404).json({ message: "No categories found" }); return; }
-
-        res.status(200).json({ categories });
         return;
     } catch (error) {
         console.log(error);

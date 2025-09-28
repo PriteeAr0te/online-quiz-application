@@ -3,9 +3,9 @@ import { getAllCategories, getQuiz, getQuizByCategory, submitQuiz } from '../con
 
 const router = express.Router();
 
+router.get("/", getAllCategories)
 router.get("/:id", getQuiz);
 router.post("/:id/submit", submitQuiz);
-router.get("/categories", getAllCategories)
 router.get("/category/:category", getQuizByCategory)
 
 export default router;
