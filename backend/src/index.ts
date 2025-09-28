@@ -1,17 +1,18 @@
-import express, { Application } from "express";
-import connectDB from "./config/db";
+import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
+import connectDB from "./config/db";
+import quizRoutes from "./routes/quizRoutes";
 
 dotenv.config();
 connectDB();
 
-const app:Application = express();
+const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/quiz", require("./routes/quiz"));
+app.use("/api/quiz", quizRoutes);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}.`));

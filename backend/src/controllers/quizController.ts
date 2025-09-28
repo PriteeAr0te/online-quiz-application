@@ -1,40 +1,44 @@
-import { Request, Response } from "express"
-import Quiz, { IQuestion, IQuiz } from "../models/Quiz"
+import { Request, Response } from "express";
+import mongoose from "mongoose";
+import Quiz, { IQuestion, IQuiz } from "../models/Quiz";
 
-export const getQuiz = async (req: Request, res: Response) => {
+
+export const getQuiz = async (req: Request, res: Response): Promise<void> => {
     try {
-        const quiz = await Quiz.findById(req.params.id).select("-questions.correctIndex")
-        if (!quiz) {
-            return res.status(404).json({ message: "Quiz not found" })
-        }
+        const { id } = req.params as { id: string };
+        if (!mongoose.Types.ObjectId.isValid(id)) { res.status(400).json({ message: "Invalid quiz ID" }); return; }
+
+        const quiz = await Quiz.findById(id).select("-questions.correctIndex").lean();
+        if (!quiz) { res.status(404).json({ message: "Quiz not found" }); return; }
 
         res.status(200).json({ quiz });
-
+        return;
     } catch (error) {
-        console.log(error)
-        res.status(500).json({ message: "Internal server error" })
+        console.log(error);
+        res.status(500).json({ message: "Internal server error" });
+        return;
     }
-}
+};
 
-export const submitQuiz = async (req: Request, res: Response) => {
+export const submitQuiz = async (req: Request, res: Response): Promise<void> => {
     try {
+        const { id } = req.params as { id: string };
+        if (!mongoose.Types.ObjectId.isValid(id)) { res.status(400).json({ message: "Invalid quiz ID" }); return; }
+
         const { answers, startTime, endTime } = req.body as {
-            answers: Record<string, number>;
-            startTime: string;
-            endTime: string;
+            answers: Record<string, number | undefined>;
+            startTime?: string;
+            endTime?: string;
         };
-        const quiz = await Quiz.findById(req.params.id) as IQuiz | null;
-        if (!quiz) {
-            return res.status(404).json({ message: "Quiz not found" })
-        }
+
+        const quiz = await Quiz.findById(id).lean() as IQuiz | null;
+        if (!quiz) { res.status(404).json({ message: "Quiz not found" }); return; }
 
         let score = 0;
         const results = quiz.questions.map((question: IQuestion) => {
-            const chosen = answers[question._id.toString()]
+            const chosen = answers[question._id.toString()] ?? undefined;
             const isCorrect = chosen === question.correctIndex;
-            if (isCorrect) {
-                score++;
-            }
+            if (isCorrect) score++;
 
             return {
                 questionId: question._id,
@@ -59,38 +63,42 @@ export const submitQuiz = async (req: Request, res: Response) => {
             score,
             total: quiz.questions.length,
             timeTaken,
-            results
+            results,
         });
+        return;
     } catch (error) {
-        console.log(error)
-        res.status(500).json({ message: "Internal server error" })
+        console.log(error);
+        res.status(500).json({ message: "Internal server error" });
+        return;
     }
-}
+};
 
-export const getQuizByCategory = async (req: Request, res: Response) => {
+export const getQuizByCategory = async (req: Request, res: Response): Promise<void> => {
     try {
-        const quiz = await Quiz.find({ category: req.params.category }).select("-questions.correctIndex")
-        if (!quiz) {
-            return res.status(404).json({ message: "Quiz not found" })
-        }
+        const { category } = req.params as { category: string };
+        const quizzes = await Quiz.find({ category }).select("-questions.correctIndex").lean();
 
-        res.status(200).json({ quiz });
+        if (quizzes.length === 0) { res.status(404).json({ message: "No quizzes found for this category" }); return; }
+
+        res.status(200).json({ quizzes });
+        return;
     } catch (error) {
-        console.log(error)
-        res.status(500).json({ message: "Internal server error" })
+        console.log(error);
+        res.status(500).json({ message: "Internal server error" });
+        return;
     }
-}
+};
 
-export const getAllCategories = async (req: Request, res: Response) => {
+export const getAllCategories = async (_req: Request, res: Response): Promise<void> => {
     try {
-        const categories = await Quiz.distinct("category");
-        if (!categories) {
-            return res.status(404).json({ message: "Categories not found" })
-        }
+        const categories = await Quiz.distinct("category").lean();
+        if (categories.length === 0) { res.status(404).json({ message: "No categories found" }); return; }
 
-        res.status(200).json({ categories })
+        res.status(200).json({ categories });
+        return;
     } catch (error) {
-        console.log(error)
-        res.status(500).json({ message: "Internal server error" })
+        console.log(error);
+        res.status(500).json({ message: "Internal server error" });
+        return;
     }
-}
+};

@@ -1,0 +1,1856 @@
+[
+    {
+        "category": "HTML",
+        "title": "HTML Basics",
+        "questions": [
+            {
+                "text": "What does HTML stand for?",
+                "options": [
+                    "Hyper Text Markup Language",
+                    "High Tool Markup Language",
+                    "Hyper Transfer Mark Language",
+                    "Hyperlink Text Management Language"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which tag is used to define the largest heading?",
+                "options": [
+                    "<head>",
+                    "<h6>",
+                    "<h1>",
+                    "<header>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag is used to insert an image?",
+                "options": [
+                    "<img>",
+                    "<picture>",
+                    "<image>",
+                    "<src>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which attribute specifies alternative text for an image?",
+                "options": [
+                    "title",
+                    "alt",
+                    "src",
+                    "name"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which element is used for a line break?",
+                "options": [
+                    "<break>",
+                    "<lb>",
+                    "<br>",
+                    "<line>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag is used to create a hyperlink?",
+                "options": [
+                    "<a>",
+                    "<link>",
+                    "<href>",
+                    "<hyper>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which tag defines a table row?",
+                "options": [
+                    "<td>",
+                    "<tr>",
+                    "<th>",
+                    "<row>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which attribute specifies the URL of a link?",
+                "options": [
+                    "src",
+                    "link",
+                    "href",
+                    "url"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which element defines emphasized text?",
+                "options": [
+                    "<strong>",
+                    "<em>",
+                    "<italic>",
+                    "<i>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which tag is used for creating an ordered list?",
+                "options": [
+                    "<ol>",
+                    "<ul>",
+                    "<li>",
+                    "<list>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which element represents the document’s metadata?",
+                "options": [
+                    "<meta>",
+                    "<header>",
+                    "<head>",
+                    "<title>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag is used for the main content of an HTML page?",
+                "options": [
+                    "<main>",
+                    "<content>",
+                    "<section>",
+                    "<body>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which attribute is used to uniquely identify an element?",
+                "options": [
+                    "class",
+                    "style",
+                    "id",
+                    "name"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag defines a horizontal rule?",
+                "options": [
+                    "<line>",
+                    "<hr>",
+                    "<border>",
+                    "<br>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which tag is used for inline style definitions?",
+                "options": [
+                    "<css>",
+                    "<style>",
+                    "<link>",
+                    "<script>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which tag represents a paragraph?",
+                "options": [
+                    "<para>",
+                    "<text>",
+                    "<p>",
+                    "<t>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which attribute specifies inline CSS?",
+                "options": [
+                    "class",
+                    "id",
+                    "style",
+                    "css"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag is used to define a list item?",
+                "options": [
+                    "<li>",
+                    "<ol>",
+                    "<ul>",
+                    "<item>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which HTML tag is used for the document title?",
+                "options": [
+                    "<meta>",
+                    "<head>",
+                    "<title>",
+                    "<h1>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which element defines bold text without extra importance?",
+                "options": [
+                    "<b>",
+                    "<strong>",
+                    "<em>",
+                    "<mark>"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "HTML",
+        "title": "HTML Forms & Inputs",
+        "questions": [
+            {
+                "text": "Which tag is used to create a form in HTML?",
+                "options": [
+                    "<form>",
+                    "<input>",
+                    "<fieldset>",
+                    "<action>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which attribute of <form> specifies the submission URL?",
+                "options": [
+                    "target",
+                    "method",
+                    "action",
+                    "enctype"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which attribute of <form> specifies the HTTP method?",
+                "options": [
+                    "type",
+                    "method",
+                    "action",
+                    "target"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which input type is used for passwords?",
+                "options": [
+                    "text",
+                    "secure",
+                    "password",
+                    "hidden"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which input type creates a checkbox?",
+                "options": [
+                    "radio",
+                    "toggle",
+                    "check",
+                    "checkbox"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which input type creates a single-choice option?",
+                "options": [
+                    "checkbox",
+                    "option",
+                    "radio",
+                    "select"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag is used to create a dropdown list?",
+                "options": [
+                    "<list>",
+                    "<dropdown>",
+                    "<select>",
+                    "<menu>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which tag defines an option inside a dropdown?",
+                "options": [
+                    "<choice>",
+                    "<option>",
+                    "<item>",
+                    "<li>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which attribute provides placeholder text inside an input?",
+                "options": [
+                    "hint",
+                    "label",
+                    "placeholder",
+                    "value"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which attribute specifies that an input must be filled?",
+                "options": [
+                    "checked",
+                    "validate",
+                    "required",
+                    "must"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which attribute specifies the maximum length of input?",
+                "options": [
+                    "limit",
+                    "maxlength",
+                    "max",
+                    "length"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which tag groups related form elements?",
+                "options": [
+                    "<group>",
+                    "<fieldset>",
+                    "<div>",
+                    "<section>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which tag provides a caption for a fieldset?",
+                "options": [
+                    "<caption>",
+                    "<legend>",
+                    "<label>",
+                    "<header>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which tag associates a label with an input?",
+                "options": [
+                    "<text>",
+                    "<legend>",
+                    "<label>",
+                    "<caption>"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which input type is used for selecting a date?",
+                "options": [
+                    "datetime",
+                    "calendar",
+                    "date",
+                    "time"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which attribute sets a default value in an input field?",
+                "options": [
+                    "default",
+                    "value",
+                    "text",
+                    "set"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which input type hides values from users but sends to server?",
+                "options": [
+                    "hidden",
+                    "secure",
+                    "invisible",
+                    "password"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which attribute is used to auto-focus an input on page load?",
+                "options": [
+                    "focus",
+                    "autofocus",
+                    "selected",
+                    "active"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which input type is used for numeric values?",
+                "options": [
+                    "digits",
+                    "integer",
+                    "number",
+                    "range"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which input type is used to upload a file?",
+                "options": [
+                    "upload",
+                    "file",
+                    "attach",
+                    "document"
+                ],
+                "correctIndex": 1
+            }
+        ]
+    },
+    {
+        "category": "CSS",
+        "title": "CSS Basics",
+        "questions": [
+            {
+                "text": "What does CSS stand for?",
+                "options": [
+                    "Creative Style Sheets",
+                    "Cascading Style Sheets",
+                    "Computer Style Sheets",
+                    "Colorful Style Sheets"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property changes the text color?",
+                "options": [
+                    "background-color",
+                    "font-color",
+                    "color",
+                    "text-style"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property sets the background color?",
+                "options": [
+                    "bg",
+                    "background",
+                    "background-color",
+                    "color"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property controls the text size?",
+                "options": [
+                    "text-size",
+                    "font-size",
+                    "size",
+                    "text-style"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which CSS unit is relative to the root element font size?",
+                "options": [
+                    "em",
+                    "%",
+                    "px",
+                    "rem"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which CSS property makes text bold?",
+                "options": [
+                    "font-style",
+                    "font-weight",
+                    "text-bold",
+                    "weight"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property underlines text?",
+                "options": [
+                    "underline",
+                    "text-decoration",
+                    "font-style",
+                    "decoration"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property changes the font of an element?",
+                "options": [
+                    "font-family",
+                    "font-style",
+                    "font-type",
+                    "font-weight"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property controls element spacing inside borders?",
+                "options": [
+                    "margin",
+                    "padding",
+                    "spacing",
+                    "gap"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property controls spacing outside an element?",
+                "options": [
+                    "gap",
+                    "padding",
+                    "margin",
+                    "border-spacing"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property makes corners rounded?",
+                "options": [
+                    "corner-radius",
+                    "round",
+                    "border-radius",
+                    "curve"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property adds shadow to text?",
+                "options": [
+                    "shadow",
+                    "box-shadow",
+                    "text-shadow",
+                    "font-shadow"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property adds shadow to a box?",
+                "options": [
+                    "shadow",
+                    "box-shadow",
+                    "text-shadow",
+                    "background-shadow"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which CSS property hides an element but keeps space?",
+                "options": [
+                    "display: none",
+                    "visibility: hidden",
+                    "opacity: 0",
+                    "hidden: true"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which CSS property removes an element completely?",
+                "options": [
+                    "display: block",
+                    "display: none",
+                    "visibility: hidden",
+                    "hidden: true"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property sets the cursor type when hovering?",
+                "options": [
+                    "pointer",
+                    "cursor",
+                    "hover",
+                    "cursor-type"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property sets the position of an element?",
+                "options": [
+                    "position",
+                    "float",
+                    "align",
+                    "display"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property controls z-axis stacking?",
+                "options": [
+                    "layer",
+                    "z-index",
+                    "stack",
+                    "index"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which CSS value makes text italic?",
+                "options": [
+                    "font-weight: italic",
+                    "text-style: italic",
+                    "font-style: italic",
+                    "style: italic"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which CSS color format supports transparency?",
+                "options": [
+                    "rgb()",
+                    "rgba()",
+                    "hex",
+                    "hsl()"
+                ],
+                "correctIndex": 1
+            }
+        ]
+    },
+    {
+        "category": "CSS",
+        "title": "Flexbox & Grid",
+        "questions": [
+            {
+                "text": "Which CSS property enables Flexbox layout?",
+                "options": [
+                    "flex",
+                    "display: flex",
+                    "flexbox",
+                    "layout: flex"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property defines the main axis alignment in Flexbox?",
+                "options": [
+                    "align-items",
+                    "align-content",
+                    "justify-content",
+                    "place-items"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property aligns items along the cross-axis in Flexbox?",
+                "options": [
+                    "align-items",
+                    "align-self",
+                    "justify-content",
+                    "place-content"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property allows wrapping of flex items?",
+                "options": [
+                    "wrap",
+                    "flex-flow",
+                    "flex-wrap",
+                    "overflow"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What is the default value of flex-direction?",
+                "options": [
+                    "row",
+                    "column",
+                    "row-reverse",
+                    "column-reverse"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property sets both direction and wrapping in Flexbox?",
+                "options": [
+                    "flex-flow",
+                    "flex-wrap",
+                    "flex-direction",
+                    "flow"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property changes the order of flex items?",
+                "options": [
+                    "order",
+                    "flex-order",
+                    "item-index",
+                    "z-index"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property controls how much an item grows relative to others?",
+                "options": [
+                    "flex-grow",
+                    "flex-shrink",
+                    "flex-basis",
+                    "flex-size"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property controls how much an item shrinks?",
+                "options": [
+                    "flex-shrink",
+                    "flex-grow",
+                    "flex-basis",
+                    "flex-size"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property defines the initial size of a flex item?",
+                "options": [
+                    "flex-basis",
+                    "flex-size",
+                    "flex-grow",
+                    "width"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which shorthand property combines grow, shrink, and basis?",
+                "options": [
+                    "flex",
+                    "flex-box",
+                    "flex-item",
+                    "flex-flow"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which CSS property enables Grid layout?",
+                "options": [
+                    "display: grid",
+                    "grid: true",
+                    "grid-layout",
+                    "layout: grid"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property defines columns in Grid?",
+                "options": [
+                    "grid-rows",
+                    "grid-template-columns",
+                    "grid-template",
+                    "grid-columns"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property defines rows in Grid?",
+                "options": [
+                    "grid-rows",
+                    "grid-template-rows",
+                    "grid-template",
+                    "grid-lines"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which unit repeats tracks in Grid easily?",
+                "options": [
+                    "auto",
+                    "repeat()",
+                    "fr",
+                    "minmax()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which unit in Grid represents a fraction of available space?",
+                "options": [
+                    "px",
+                    "em",
+                    "fr",
+                    "%"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property sets gaps between grid rows and columns?",
+                "options": [
+                    "grid-gap",
+                    "gap",
+                    "spacing",
+                    "grid-spacing"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property places an item across multiple columns?",
+                "options": [
+                    "grid-column",
+                    "grid-row",
+                    "span",
+                    "grid-area"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property places an item across multiple rows?",
+                "options": [
+                    "grid-row",
+                    "grid-column",
+                    "span",
+                    "grid-area"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property combines row and column placement in Grid?",
+                "options": [
+                    "grid",
+                    "grid-template",
+                    "grid-area",
+                    "place-items"
+                ],
+                "correctIndex": 2
+            }
+        ]
+    },
+    {
+        "category": "CSS",
+        "title": "Advanced Selectors",
+        "questions": [
+            {
+                "text": "Which selector selects an element with a specific ID?",
+                "options": [
+                    "#",
+                    ".",
+                    "id()",
+                    "@"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which selector selects elements with a specific class?",
+                "options": [
+                    "#",
+                    ".",
+                    "class()",
+                    "@"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which combinator selects direct children only?",
+                "options": [
+                    " ",
+                    ">",
+                    "+",
+                    "~"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which combinator selects an element immediately after another?",
+                "options": [
+                    "+",
+                    ">",
+                    "~",
+                    " "
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which combinator selects all siblings after an element?",
+                "options": [
+                    "+",
+                    "~",
+                    ">",
+                    " "
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which pseudo-class selects the first child of a parent?",
+                "options": [
+                    ":first",
+                    ":first-child",
+                    ":nth-child(1)",
+                    ":start"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which pseudo-class selects the last child of a parent?",
+                "options": [
+                    ":end",
+                    ":last",
+                    ":last-child",
+                    ":nth-child(last)"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which pseudo-class selects an element when the mouse hovers over it?",
+                "options": [
+                    ":hover",
+                    ":focus",
+                    ":active",
+                    ":checked"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which pseudo-class styles a link that has been visited?",
+                "options": [
+                    ":hover",
+                    ":visited",
+                    ":active",
+                    ":focus"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which pseudo-class selects input fields that are currently focused?",
+                "options": [
+                    ":active",
+                    ":hover",
+                    ":focus",
+                    ":checked"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which pseudo-element inserts content before an element?",
+                "options": [
+                    "::after",
+                    "::before",
+                    "::first-line",
+                    "::marker"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which pseudo-element styles the first line of text?",
+                "options": [
+                    "::first",
+                    "::first-line",
+                    "::line",
+                    "::before"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which pseudo-element styles the first letter of text?",
+                "options": [
+                    "::first-letter",
+                    "::letter",
+                    "::char",
+                    "::before"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which attribute selector selects elements with a given attribute?",
+                "options": [
+                    "[attr]",
+                    "(attr)",
+                    "{attr}",
+                    "<attr>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which attribute selector matches elements with a specific value?",
+                "options": [
+                    "[attr]",
+                    "[attr=value]",
+                    "[attr*]",
+                    "[attr~=]"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which attribute selector matches if the value starts with a word?",
+                "options": [
+                    "[attr=]",
+                    "[attr^=]",
+                    "[attr$=]",
+                    "[attr|=]"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which attribute selector matches values that start with specific characters?",
+                "options": [
+                    "[attr*]",
+                    "[attr^=]",
+                    "[attr$=]",
+                    "[attr~=]"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which attribute selector matches values that end with specific characters?",
+                "options": [
+                    "[attr*]",
+                    "[attr^=]",
+                    "[attr$=]",
+                    "[attr~=]"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which attribute selector matches values containing a substring?",
+                "options": [
+                    "[attr*='value']",
+                    "[attr^='value']",
+                    "[attr$='value']",
+                    "[attr|='value']"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which pseudo-class selects every even child element?",
+                "options": [
+                    ":nth-child(even)",
+                    ":nth-of-type(2n)",
+                    ":even",
+                    "Both 1 and 2"
+                ],
+                "correctIndex": 3
+            }
+        ]
+    },
+    {
+        "category": "Tailwind CSS",
+        "title": "Tailwind Basics & Utility Classes",
+        "questions": [
+            {
+                "text": "What is Tailwind CSS primarily known for?",
+                "options": [
+                    "Component-based styling",
+                    "Utility-first CSS framework",
+                    "Pre-built templates",
+                    "CSS animations only"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which command installs Tailwind CSS using npm?",
+                "options": [
+                    "npm install tailwind",
+                    "npm install tailwindcss",
+                    "npm install css-tailwind",
+                    "npm install twcss"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which file usually stores Tailwind configuration?",
+                "options": [
+                    "tailwind.json",
+                    "tailwind.config.css",
+                    "tailwind.config.js",
+                    "config.tailwind.js"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which directive is used to include Tailwind’s base styles?",
+                "options": [
+                    "@tailwind base;",
+                    "@tailwind init;",
+                    "@tailwind style;",
+                    "@base;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which directive is used to include Tailwind’s components?",
+                "options": [
+                    "@tailwind base;",
+                    "@tailwind components;",
+                    "@tailwind utilities;",
+                    "@tailwind core;"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which directive is used to include Tailwind’s utilities?",
+                "options": [
+                    "@tailwind utils;",
+                    "@tailwind utilities;",
+                    "@tailwind core;",
+                    "@utilities;"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which class sets text to red?",
+                "options": [
+                    "text-red",
+                    "text-red-500",
+                    "color-red",
+                    "font-red"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which class sets background color to blue?",
+                "options": [
+                    "bg-blue",
+                    "bg-blue-500",
+                    "background-blue",
+                    "color-blue"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which class sets font size to extra large?",
+                "options": [
+                    "text-xl",
+                    "font-xl",
+                    "size-xl",
+                    "xl-text"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class makes text bold?",
+                "options": [
+                    "font-bold",
+                    "text-bold",
+                    "weight-bold",
+                    "bold"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class applies padding of 4 units?",
+                "options": [
+                    "pad-4",
+                    "padding-4",
+                    "p-4",
+                    "pl-4"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which class applies margin of 2 units?",
+                "options": [
+                    "m-2",
+                    "margin-2",
+                    "mr-2",
+                    "ml-2"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class sets width to 100%?",
+                "options": [
+                    "w-full",
+                    "width-full",
+                    "full-width",
+                    "w-100"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class centers text?",
+                "options": [
+                    "align-center",
+                    "center-text",
+                    "text-center",
+                    "text-align-center"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which class rounds element corners?",
+                "options": [
+                    "rounded",
+                    "corner",
+                    "border-round",
+                    "radius"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class applies shadow to an element?",
+                "options": [
+                    "shadow",
+                    "box-shadow",
+                    "shadow-md",
+                    "shadow-box"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which class hides an element?",
+                "options": [
+                    "hidden",
+                    "display-none",
+                    "invisible",
+                    "d-none"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class makes an element invisible but keeps space?",
+                "options": [
+                    "hidden",
+                    "invisible",
+                    "opacity-0",
+                    "d-none"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which class sets display to flex?",
+                "options": [
+                    "flex",
+                    "d-flex",
+                    "display-flex",
+                    "flexbox"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class sets display to grid?",
+                "options": [
+                    "d-grid",
+                    "grid",
+                    "display-grid",
+                    "gridbox"
+                ],
+                "correctIndex": 1
+            }
+        ]
+    },
+    {
+        "category": "Tailwind CSS",
+        "title": "Responsive Design",
+        "questions": [
+            {
+                "text": "What is Tailwind’s default design approach?",
+                "options": [
+                    "Desktop-first",
+                    "Mobile-first",
+                    "Tablet-first",
+                    "Responsive-first"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which prefix applies styles on screens ≥ 640px?",
+                "options": [
+                    "sm:",
+                    "md:",
+                    "lg:",
+                    "xl:"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which prefix applies styles on screens ≥ 768px?",
+                "options": [
+                    "sm:",
+                    "md:",
+                    "lg:",
+                    "xl:"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which prefix applies styles on screens ≥ 1024px?",
+                "options": [
+                    "sm:",
+                    "md:",
+                    "lg:",
+                    "xl:"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which prefix applies styles on screens ≥ 1280px?",
+                "options": [
+                    "lg:",
+                    "md:",
+                    "xl:",
+                    "2xl:"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which prefix applies styles on screens ≥ 1536px?",
+                "options": [
+                    "xl:",
+                    "xxl:",
+                    "2xl:",
+                    "3xl:"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "How do you make text center-aligned only on medium screens?",
+                "options": [
+                    "sm:text-center",
+                    "md:text-center",
+                    "lg:text-center",
+                    "xl:text-center"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which class hides an element on small screens but shows on medium?",
+                "options": [
+                    "hidden md:block",
+                    "block sm:hidden",
+                    "invisible md:visible",
+                    "sm:hidden lg:block"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which utility applies responsive padding?",
+                "options": [
+                    "p-responsive",
+                    "p-4 md:p-8",
+                    "padding-auto",
+                    "p-sm-md"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which utility makes an element take half width on medium screens?",
+                "options": [
+                    "w-1/2",
+                    "md:w-1/2",
+                    "sm:w-1/2",
+                    "lg:w-1/2"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which utility stacks items vertically on small and horizontally on medium screens?",
+                "options": [
+                    "flex-col md:flex-row",
+                    "flex-row sm:flex-col",
+                    "md:flex-col flex-row",
+                    "sm:flex-row flex-col"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class adjusts font size based on screen size?",
+                "options": [
+                    "text-lg md:text-xl",
+                    "font-md font-lg",
+                    "size-sm size-md",
+                    "text-md-lg"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class centers a div on large screens only?",
+                "options": [
+                    "lg:mx-auto",
+                    "md:mx-auto",
+                    "xl:mx-auto",
+                    "2xl:mx-auto"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which responsive utility ensures an image scales properly?",
+                "options": [
+                    "object-cover",
+                    "img-responsive",
+                    "responsive-img",
+                    "auto-scale"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class hides an element visually but keeps it accessible to screen readers?",
+                "options": [
+                    "hidden",
+                    "invisible",
+                    "sr-only",
+                    "opacity-0"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which class combination makes text small on mobile, larger on desktop?",
+                "options": [
+                    "text-sm lg:text-lg",
+                    "sm:text-lg text-sm",
+                    "lg:text-sm text-lg",
+                    "text-lg sm:text-sm"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which utility adjusts grid layout responsively?",
+                "options": [
+                    "grid-cols-1 md:grid-cols-3",
+                    "grid-sm-1 grid-md-3",
+                    "col-1 md:col-3",
+                    "grid: responsive"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which Tailwind feature allows custom screen sizes?",
+                "options": [
+                    "tailwind.config.js",
+                    "responsive.config.json",
+                    "custom-screens.js",
+                    "screens.tailwind.js"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which class combination makes an element fixed on mobile and sticky on desktop?",
+                "options": [
+                    "fixed lg:sticky",
+                    "sticky md:fixed",
+                    "absolute lg:sticky",
+                    "sticky sm:fixed"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which responsive class combination makes buttons stack on small screens?",
+                "options": [
+                    "flex-col sm:flex-row",
+                    "sm:flex-col flex-row",
+                    "block md:inline-block",
+                    "hidden md:block"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "JavaScript",
+        "title": "JS Basics & Syntax",
+        "questions": [
+            {
+                "text": "Which company developed JavaScript?",
+                "options": [
+                    "Netscape",
+                    "Microsoft",
+                    "Sun Microsystems",
+                    "Oracle"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is NOT a JavaScript data type?",
+                "options": [
+                    "Number",
+                    "String",
+                    "Boolean",
+                    "Character"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which keyword is used to declare a variable in JavaScript?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "All of the above"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "What will `typeof null` return?",
+                "options": [
+                    "null",
+                    "object",
+                    "undefined",
+                    "boolean"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which symbol is used for single-line comments?",
+                "options": [
+                    "<!-- -->",
+                    "//",
+                    "/* */",
+                    "#"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which symbol is used for multi-line comments?",
+                "options": [
+                    "//",
+                    "/* */",
+                    "#",
+                    "<!-- -->"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is the default value of an uninitialized variable in JavaScript?",
+                "options": [
+                    "null",
+                    "undefined",
+                    "0",
+                    "false"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used for strict equality?",
+                "options": [
+                    "=",
+                    "==",
+                    "===",
+                    "!="
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which operator is used to assign a value to a variable?",
+                "options": [
+                    "=",
+                    "==",
+                    "===",
+                    ":="
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the result of `2 + '2'`?",
+                "options": [
+                    "22",
+                    "4",
+                    "NaN",
+                    "Error"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the result of `2 - '2'`?",
+                "options": [
+                    "0",
+                    "22",
+                    "NaN",
+                    "Error"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function is used to display an alert box?",
+                "options": [
+                    "prompt()",
+                    "alert()",
+                    "console.log()",
+                    "confirm()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which function is used to display a message in the console?",
+                "options": [
+                    "alert()",
+                    "console.print()",
+                    "console.log()",
+                    "log()"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which function is used to take user input in JavaScript?",
+                "options": [
+                    "prompt()",
+                    "alert()",
+                    "input()",
+                    "read()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword defines a constant variable?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "static"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which value represents 'Not a Number'?",
+                "options": [
+                    "null",
+                    "NaN",
+                    "undefined",
+                    "Infinity"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is the result of `typeof NaN`?",
+                "options": [
+                    "NaN",
+                    "number",
+                    "undefined",
+                    "object"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which symbol is used for exponentiation in JavaScript?",
+                "options": [
+                    "^",
+                    "**",
+                    "exp()",
+                    "pow()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used for logical AND?",
+                "options": [
+                    "&",
+                    "&&",
+                    "and",
+                    "Both A and B"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used for logical OR?",
+                "options": [
+                    "|",
+                    "||",
+                    "or",
+                    "Both A and B"
+                ],
+                "correctIndex": 1
+            }
+        ]
+    },
+    {
+        "category": "JavaScript",
+        "title": "DOM Manipulation",
+        "questions": [
+            {
+                "text": "What does DOM stand for?",
+                "options": [
+                    "Document Object Model",
+                    "Data Object Model",
+                    "Document Oriented Module",
+                    "Data Oriented Model"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method selects an element by its ID?",
+                "options": [
+                    "getElementById()",
+                    "querySelector()",
+                    "getElementByName()",
+                    "getElement()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method selects elements by their class name?",
+                "options": [
+                    "getElementsByTag()",
+                    "getElementsByClassName()",
+                    "querySelectorAll()",
+                    "getClass()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which method selects the first element that matches a CSS selector?",
+                "options": [
+                    "querySelector()",
+                    "querySelectorAll()",
+                    "getElementById()",
+                    "getElementByName()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method selects all elements that match a CSS selector?",
+                "options": [
+                    "querySelector()",
+                    "querySelectorAll()",
+                    "getAll()",
+                    "getElements()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property sets or returns the text content of an element?",
+                "options": [
+                    "innerText",
+                    "textContent",
+                    "innerHTML",
+                    "nodeValue"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property returns the HTML content of an element?",
+                "options": [
+                    "innerText",
+                    "textContent",
+                    "innerHTML",
+                    "outerHTML"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property returns the HTML including the element itself?",
+                "options": [
+                    "innerText",
+                    "innerHTML",
+                    "outerHTML",
+                    "textContent"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which method creates a new HTML element?",
+                "options": [
+                    "createNode()",
+                    "createElement()",
+                    "newElement()",
+                    "makeElement()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which method adds a node as the last child of a parent?",
+                "options": [
+                    "appendChild()",
+                    "insertBefore()",
+                    "addNode()",
+                    "append()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method removes a child node?",
+                "options": [
+                    "deleteChild()",
+                    "remove()",
+                    "removeChild()",
+                    "destroyNode()"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which method replaces one child node with another?",
+                "options": [
+                    "replace()",
+                    "replaceChild()",
+                    "swapNode()",
+                    "changeChild()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property returns the parent node of an element?",
+                "options": [
+                    "parentElement",
+                    "parentNode",
+                    "ancestorNode",
+                    "rootNode"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property returns a live HTMLCollection of a node’s children?",
+                "options": [
+                    "children",
+                    "childNodes",
+                    "getChildren()",
+                    "allChildren"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property returns all child nodes including text nodes?",
+                "options": [
+                    "children",
+                    "childNodes",
+                    "allChildren",
+                    "nodeList"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which method sets or changes an attribute on an element?",
+                "options": [
+                    "setAttribute()",
+                    "changeAttr()",
+                    "setAttr()",
+                    "updateAttribute()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method removes an attribute from an element?",
+                "options": [
+                    "deleteAttribute()",
+                    "removeAttr()",
+                    "removeAttribute()",
+                    "unsetAttr()"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property gives the value of an input field?",
+                "options": [
+                    "innerText",
+                    "value",
+                    "textContent",
+                    "inputText"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which method adds an event listener to an element?",
+                "options": [
+                    "attachEvent()",
+                    "addEvent()",
+                    "addEventListener()",
+                    "onEvent()"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property returns the element that triggered an event?",
+                "options": [
+                    "target",
+                    "source",
+                    "eventNode",
+                    "element"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    }
+]
