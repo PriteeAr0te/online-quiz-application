@@ -8,6 +8,7 @@
 
 :root {
   --primary: #489fb5;
+  --background-light: #f9f7fd;
   --primary-dark: #0fa3b1;
   --accent: #82c0cc;
   --secondary: #ffa62b;
@@ -17,6 +18,7 @@
 
 .dark {
   --primary: #489fb5;
+  --background-light: #f9f7fd;
   --primary-dark: #0fa3b1;
   --accent: #82c0cc;
   --secondary: #ffa62b;
@@ -26,6 +28,7 @@
 
 @theme {
   --color-primary: var(--primary);
+  --color-light: var(--background-light);
   --color-primary-dark: var(--primary-dark);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);

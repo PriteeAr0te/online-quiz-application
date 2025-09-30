@@ -5,10 +5,28 @@ import Quiz, { IQuestion, IQuiz } from "../models/Quiz";
 
 export const getAllCategories = async (_req: Request, res: Response): Promise<void> => {
     try {
-        const categories = await Quiz.distinct("category").lean();
-        if (categories.length === 0) { res.status(404).json({ message: "No categories found" }); return; }
+        const categories = await Quiz.aggregate([
+            {
+                $group: {
+                    _id: '$category',
+                    quizCount: { $sum: 1 }
+                }
+            },
+            {
+                $project: {
+                    _id: 0,
+                    category: '$_id',
+                    quizCount: 1
+                }
+            }
+        ]);
 
-        res.status(200).json({ categories });
+        if (categories.length === 0) {
+            res.status(404).json({ message: 'No categories found.' })
+            return;
+        }
+
+        res.status(200).json({ categories })
         return;
     } catch (error) {
         console.log(error);
