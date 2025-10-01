@@ -204,7 +204,7 @@ const QuizPage = () => {
                                     <div className="grid grid-cols-5 gap-2 mt-3 w-full justify-center" role="navigation" aria-label="Question navigation">
                                         {quiz.questions.map((q, index) => {
                                             let color = "bg-secondary";
-                                            if (answer[q._id] !== undefined) color = "bg-green-400";
+                                            if (answer[q._id] !== undefined) color = "bg-green-600";
                                             if (reviewMarked[q._id]) color = "bg-blue-400";
                                             return (
                                                 <button
