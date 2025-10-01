@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import Quiz, { IQuestion, IQuiz } from "../models/Quiz";
+import Quiz, { IQuiz } from "../models/Quiz";
+import { calculateScore } from "scoring";
 
 
 export const getAllCategories = async (_req: Request, res: Response): Promise<void> => {
@@ -66,21 +67,7 @@ export const submitQuiz = async (req: Request, res: Response): Promise<void> => 
         const quiz = await Quiz.findById(id).lean() as IQuiz | null;
         if (!quiz) { res.status(404).json({ message: "Quiz not found" }); return; }
 
-        let score = 0;
-        const results = quiz.questions.map((question: IQuestion) => {
-            const chosen = answers[question._id.toString()] ?? undefined;
-            const isCorrect = chosen === question.correctIndex;
-            if (isCorrect) score++;
-
-            return {
-                questionId: question._id,
-                questionText: question.text,
-                options: question.options,
-                correctIndex: question.correctIndex,
-                chosen,
-                isCorrect,
-            };
-        });
+        const { score, total, results } = calculateScore(quiz.questions, answers)
 
         let timeTaken = 0;
         if (startTime && endTime) {
@@ -93,7 +80,7 @@ export const submitQuiz = async (req: Request, res: Response): Promise<void> => 
 
         res.status(200).json({
             score,
-            total: quiz.questions.length,
+            total,
             timeTaken,
             results,
         });
