@@ -100,7 +100,7 @@ cd frontend
 npm run dev
 ```
 
-The backend enables CORS for `http://localhost:5173` in `backend/src/app.ts`.
+The backend enables CORS for `https://online-quiz-application-verto.netlify.app` in `backend/src/app.ts`.
 
 ---
 
@@ -201,7 +201,7 @@ Serve the frontend’s built assets behind a reverse proxy (e.g., Nginx) and con
 
 ## Configuration notes
 
-- CORS is currently configured in `backend/src/app.ts` to allow `http://localhost:5173` with credentials.
+- CORS is currently configured in `backend/src/app.ts` to allow `https://online-quiz-application-verto.netlify.app` with credentials.
 - Frontend Axios instance (`frontend/src/lib/api.ts`) uses `VITE_BASE_URL` or falls back to `https://online-quiz-application-duig.onrender.com/api/quiz`.
 - The backend omits `questions.correctIndex` in GET responses to prevent answer leakage; scoring occurs server‑side on submit.
 

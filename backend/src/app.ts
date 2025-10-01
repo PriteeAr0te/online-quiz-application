@@ -5,7 +5,7 @@ import quizRoutes from "./routes/quizRoutes";
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://online-quiz-application-verto.netlify.app",
     credentials: true
 }));
 
