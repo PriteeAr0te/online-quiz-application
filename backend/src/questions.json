@@ -1852,5 +1852,5567 @@
                 "correctIndex": 0
             }
         ]
+    },
+    {
+        "category": "JavaScript",
+        "title": "ES6+ Features",
+        "questions": [
+            {
+                "text": "Which keyword declares a block-scoped variable?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "Both let and const"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which keyword declares a variable that cannot be reassigned?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "static"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which feature allows multiline strings without concatenation?",
+                "options": [
+                    "Template literals",
+                    "String concat",
+                    "Backslash escapes",
+                    "String.join"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which symbol is used for template literals?",
+                "options": [
+                    "'",
+                    "\"",
+                    "`",
+                    "~"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which syntax defines an arrow function?",
+                "options": [
+                    "function => {}",
+                    "() => {}",
+                    "=> function {}",
+                    "arrow() {}"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which statement about arrow functions is true?",
+                "options": [
+                    "They have their own 'this'",
+                    "They do not bind their own 'this'",
+                    "They can only be used with async",
+                    "They must have a return"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator expands elements of an array?",
+                "options": [
+                    "...",
+                    "++",
+                    "**",
+                    "spread()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator groups multiple function parameters into an array?",
+                "options": [
+                    "...",
+                    "rest()",
+                    "args()",
+                    "[]"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which syntax is correct for object destructuring?",
+                "options": [
+                    "let {a, b} = obj;",
+                    "let (a, b) = obj;",
+                    "let [a, b] = obj;",
+                    "let {a, b}; = obj"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which syntax is correct for array destructuring?",
+                "options": [
+                    "let {a, b} = arr;",
+                    "let [a, b] = arr;",
+                    "let (a, b) = arr;",
+                    "let <a, b> = arr;"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword defines a default export in a module?",
+                "options": [
+                    "export default",
+                    "export const",
+                    "module.exports",
+                    "default export"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement imports a default export?",
+                "options": [
+                    "import * from 'file'",
+                    "import {x} from 'file'",
+                    "import x from 'file'",
+                    "require('file')"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which statement imports a named export?",
+                "options": [
+                    "import {x} from 'file'",
+                    "import x from 'file'",
+                    "import file.x",
+                    "importAll from 'file'"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which object is used to handle asynchronous operations?",
+                "options": [
+                    "Observable",
+                    "Promise",
+                    "Async",
+                    "Callback"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which method is used to handle resolved Promise values?",
+                "options": [
+                    "then()",
+                    "catch()",
+                    "finally()",
+                    "done()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to handle rejected Promises?",
+                "options": [
+                    "then()",
+                    "catch()",
+                    "error()",
+                    "reject()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword is used before a function to make it asynchronous?",
+                "options": [
+                    "await",
+                    "async",
+                    "promise",
+                    "defer"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword pauses execution until a Promise resolves?",
+                "options": [
+                    "wait",
+                    "defer",
+                    "async",
+                    "await"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which loop allows iteration directly over iterable values?",
+                "options": [
+                    "for",
+                    "for in",
+                    "for of",
+                    "while"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which feature allows assigning default values to function parameters?",
+                "options": [
+                    "Default args",
+                    "Fallback parameters",
+                    "Default parameters",
+                    "setDefault()"
+                ],
+                "correctIndex": 2
+            }
+        ]
+    },
+    {
+        "category": "JavaScript",
+        "title": "Functions & Scope",
+        "questions": [
+            {
+                "text": "Which keyword defines a function in JavaScript?",
+                "options": [
+                    "func",
+                    "define",
+                    "function",
+                    "fn"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What does a function return if no return statement is provided?",
+                "options": [
+                    "null",
+                    "undefined",
+                    "0",
+                    "false"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which function is executed immediately after its definition?",
+                "options": [
+                    "Anonymous Function",
+                    "Arrow Function",
+                    "IIFE",
+                    "Callback Function"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which scope allows variables to be accessed everywhere?",
+                "options": [
+                    "Local",
+                    "Function",
+                    "Block",
+                    "Global"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which scope is created inside a function?",
+                "options": [
+                    "Global Scope",
+                    "Local Scope",
+                    "Block Scope",
+                    "Dynamic Scope"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword declares a block-scoped variable?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "Both let and const"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which keyword declares a function-scoped variable?",
+                "options": [
+                    "let",
+                    "var",
+                    "const",
+                    "static"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which feature allows a function to access variables from its outer scope?",
+                "options": [
+                    "Hoisting",
+                    "Closure",
+                    "IIFE",
+                    "Callback"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which statement about closures is correct?",
+                "options": [
+                    "Closures cannot access outer variables",
+                    "Closures can access outer function variables",
+                    "Closures erase outer variables",
+                    "Closures are only in async code"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword is hoisted with undefined value?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "Both let and const"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keywords are hoisted but not initialized?",
+                "options": [
+                    "var",
+                    "let and const",
+                    "function",
+                    "class"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What happens if you declare two functions with the same name?",
+                "options": [
+                    "It throws an error",
+                    "The last one overrides the first",
+                    "Both work",
+                    "It depends on strict mode"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which function type does not have its own 'this'?",
+                "options": [
+                    "Normal function",
+                    "Arrow function",
+                    "Anonymous function",
+                    "Constructor function"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword inside a function refers to the object that invoked it?",
+                "options": [
+                    "self",
+                    "this",
+                    "caller",
+                    "parent"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is a callback function?",
+                "options": [
+                    "A function passed as an argument to another function",
+                    "A function that calls itself",
+                    "A function that returns another function",
+                    "A function that is asynchronous"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword prevents a variable from being reassigned?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "final"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What is function hoisting?",
+                "options": [
+                    "Moving functions to top automatically",
+                    "Deleting functions at runtime",
+                    "Functions that only run at the start",
+                    "Functions that cannot be redeclared"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is returned if a function explicitly returns nothing?",
+                "options": [
+                    "null",
+                    "undefined",
+                    "0",
+                    "false"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which type of function can be used as a constructor?",
+                "options": [
+                    "Normal function",
+                    "Arrow function",
+                    "Anonymous function",
+                    "Async function"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement is true about scope in JavaScript?",
+                "options": [
+                    "let and const are block-scoped",
+                    "var is function-scoped",
+                    "Global variables are accessible everywhere",
+                    "All of the above"
+                ],
+                "correctIndex": 3
+            }
+        ]
+    },
+    {
+        "category": "JavaScript",
+        "title": "Event Handling",
+        "questions": [
+            {
+                "text": "Which method is used to attach an event handler to an element?",
+                "options": [
+                    "addEvent()",
+                    "onEvent()",
+                    "addEventListener()",
+                    "attachEvent()"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which method is used to remove an event listener?",
+                "options": [
+                    "removeListener()",
+                    "removeEventListener()",
+                    "deleteEvent()",
+                    "clearEvent()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which event is triggered when a user clicks on an element?",
+                "options": [
+                    "onhover",
+                    "onclick",
+                    "click",
+                    "mousedown"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which event is fired when a key is pressed down?",
+                "options": [
+                    "keypress",
+                    "keydown",
+                    "keyup",
+                    "onkey"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which event is fired when a key is released?",
+                "options": [
+                    "keypress",
+                    "keydown",
+                    "keyup",
+                    "onrelease"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which mouse event is triggered when the pointer enters an element?",
+                "options": [
+                    "mouseover",
+                    "mouseenter",
+                    "hover",
+                    "pointerover"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which mouse event is triggered when the pointer leaves an element?",
+                "options": [
+                    "mouseout",
+                    "mouseleave",
+                    "exit",
+                    "pointerleave"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which event is triggered when the value of an input changes?",
+                "options": [
+                    "change",
+                    "input",
+                    "keyup",
+                    "blur"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which event is triggered when a user submits a form?",
+                "options": [
+                    "send",
+                    "submit",
+                    "onsubmit",
+                    "formSubmit"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which event is triggered when an image fails to load?",
+                "options": [
+                    "error",
+                    "fail",
+                    "onerror",
+                    "imgerror"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property of the event object refers to the element that triggered the event?",
+                "options": [
+                    "target",
+                    "source",
+                    "element",
+                    "origin"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which property stops event bubbling?",
+                "options": [
+                    "stop()",
+                    "stopEvent()",
+                    "stopPropagation()",
+                    "preventDefault()"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which method prevents the default action of an event?",
+                "options": [
+                    "stopPropagation()",
+                    "preventDefault()",
+                    "stopDefault()",
+                    "cancelEvent()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which phase comes first in the event flow?",
+                "options": [
+                    "Target",
+                    "Capturing",
+                    "Bubbling",
+                    "Dispatch"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which phase comes last in the event flow?",
+                "options": [
+                    "Target",
+                    "Capturing",
+                    "Bubbling",
+                    "Dispatch"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What is event delegation?",
+                "options": [
+                    "Assigning multiple handlers to one element",
+                    "Using one handler on a parent element for its children",
+                    "Preventing an event from firing",
+                    "Delegating events to another page"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which property allows you to check if an event supports bubbling?",
+                "options": [
+                    "event.bubbles",
+                    "event.isBubble",
+                    "event.canBubble",
+                    "event.flow"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which event is fired when the DOM is fully loaded?",
+                "options": [
+                    "onload",
+                    "DOMContentLoaded",
+                    "ready",
+                    "document.ready"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which event is fired when the whole page including images is loaded?",
+                "options": [
+                    "DOMContentLoaded",
+                    "ready",
+                    "load",
+                    "pageLoad"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which property of the event object checks if preventDefault() was called?",
+                "options": [
+                    "event.isPrevented",
+                    "event.prevented",
+                    "event.defaultPrevented",
+                    "event.blocked"
+                ],
+                "correctIndex": 2
+            }
+        ]
+    },
+    {
+        "category": "TypeScript",
+        "title": "Basics & Types",
+        "questions": [
+            {
+                "text": "Which command is used to install TypeScript globally?",
+                "options": [
+                    "npm install typescript",
+                    "npm install -g typescript",
+                    "npm start typescript",
+                    "npm run typescript"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is the default file extension for TypeScript files?",
+                "options": [
+                    ".js",
+                    ".ts",
+                    ".tsx",
+                    ".typ"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which type represents a true or false value in TypeScript?",
+                "options": [
+                    "boolean",
+                    "string",
+                    "number",
+                    "any"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which type represents both integer and floating-point numbers?",
+                "options": [
+                    "int",
+                    "float",
+                    "number",
+                    "numeric"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which keyword is used to define a variable with a specific type?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "All of the above"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which type is used when a variable can hold any kind of value?",
+                "options": [
+                    "any",
+                    "unknown",
+                    "void",
+                    "mixed"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which type is safer than 'any' because it requires type checking before use?",
+                "options": [
+                    "void",
+                    "unknown",
+                    "never",
+                    "mixed"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword is used to create a tuple in TypeScript?",
+                "options": [
+                    "tuple",
+                    "array",
+                    "[]",
+                    "as [ ]"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which type represents values that will never occur (like errors)?",
+                "options": [
+                    "undefined",
+                    "void",
+                    "never",
+                    "null"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which return type is used when a function does not return anything?",
+                "options": [
+                    "null",
+                    "undefined",
+                    "never",
+                    "void"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which keyword is used to define a custom type alias?",
+                "options": [
+                    "interface",
+                    "alias",
+                    "type",
+                    "define"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which keyword is used to define an enumeration?",
+                "options": [
+                    "enum",
+                    "enumerate",
+                    "list",
+                    "set"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which TypeScript type is a subtype of all other types?",
+                "options": [
+                    "unknown",
+                    "any",
+                    "never",
+                    "null"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What will 'let x: number = 10;' infer x as?",
+                "options": [
+                    "string",
+                    "number",
+                    "any",
+                    "const"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What does 'strictNullChecks' option in tsconfig.json enforce?",
+                "options": [
+                    "Null and undefined must be explicitly handled",
+                    "Null values are automatically removed",
+                    "TypeScript ignores null checks",
+                    "Null can be assigned to any type"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used for union types?",
+                "options": [
+                    "&",
+                    "|",
+                    "+",
+                    ","
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used for intersection types?",
+                "options": [
+                    "&",
+                    "|",
+                    "+",
+                    ","
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which type allows a variable to be either null or a string?",
+                "options": [
+                    "string",
+                    "string | null",
+                    "nullable string",
+                    "optional string"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is the output type of 'typeof' operator in TypeScript?",
+                "options": [
+                    "string",
+                    "number",
+                    "boolean",
+                    "Type definition"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Which TypeScript compiler command compiles 'app.ts' to JavaScript?",
+                "options": [
+                    "ts app.ts",
+                    "tsc app.ts",
+                    "node app.ts",
+                    "compile app.ts"
+                ],
+                "correctIndex": 1
+            }
+        ]
+    },
+    {
+        "category": "TypeScript",
+        "title": "Advanced Types",
+        "questions": [
+            {
+                "text": "Which keyword is used to define a contract for an object in TypeScript?",
+                "options": [
+                    "class",
+                    "interface",
+                    "type",
+                    "object"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used to combine multiple types into one (intersection)?",
+                "options": [
+                    "|",
+                    "&",
+                    "+",
+                    "*"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used to allow a variable to be one of several types (union)?",
+                "options": [
+                    "&",
+                    "|",
+                    "?",
+                    "+"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which feature of TypeScript allows checking variable type at runtime to narrow its type?",
+                "options": [
+                    "Type guards",
+                    "Type inference",
+                    "Type assertion",
+                    "Type alias"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is commonly used in type guards?",
+                "options": [
+                    "typeof",
+                    "instanceof",
+                    "in",
+                    "All of the above"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "What does the 'keyof' operator return?",
+                "options": [
+                    "Keys of an object type as a union of string literals",
+                    "Values of an object type",
+                    "Type of a variable",
+                    "Union of object and array"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which mapped type makes all properties of a type optional?",
+                "options": [
+                    "Partial<T>",
+                    "Required<T>",
+                    "Readonly<T>",
+                    "Pick<T>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which mapped type makes all properties of a type required?",
+                "options": [
+                    "Partial<T>",
+                    "Required<T>",
+                    "Readonly<T>",
+                    "Omit<T>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which mapped type makes all properties of a type readonly?",
+                "options": [
+                    "Readonly<T>",
+                    "Required<T>",
+                    "Partial<T>",
+                    "Exclude<T>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which utility type constructs a type with only specific properties?",
+                "options": [
+                    "Omit<T, K>",
+                    "Pick<T, K>",
+                    "Record<K, T>",
+                    "Extract<T, U>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which utility type constructs a type without specific properties?",
+                "options": [
+                    "Omit<T, K>",
+                    "Pick<T, K>",
+                    "Partial<T>",
+                    "Exclude<T, U>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which utility type creates a type with keys of type K and values of type T?",
+                "options": [
+                    "Record<K, T>",
+                    "Map<K, T>",
+                    "Dictionary<K, T>",
+                    "Set<K, T>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which utility type extracts from T those types that are assignable to U?",
+                "options": [
+                    "Exclude<T, U>",
+                    "Extract<T, U>",
+                    "Pick<T, K>",
+                    "Omit<T, K>"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which utility type excludes from T those types that are assignable to U?",
+                "options": [
+                    "Exclude<T, U>",
+                    "Extract<T, U>",
+                    "Pick<T, K>",
+                    "Partial<T>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which feature is commonly used to model union types with a shared property?",
+                "options": [
+                    "Intersection Types",
+                    "Discriminated Unions",
+                    "Type Guards",
+                    "Generic Constraints"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword can be used for type assertions in TypeScript?",
+                "options": [
+                    "as",
+                    "is",
+                    "assert",
+                    "cast"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement about interfaces and type aliases is true?",
+                "options": [
+                    "Interfaces and type aliases are always identical",
+                    "Interfaces can be merged, type aliases cannot",
+                    "Type aliases can extend, interfaces cannot",
+                    "Neither supports generics"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which keyword is used to restrict generics to specific types?",
+                "options": [
+                    "where",
+                    "extends",
+                    "restrict",
+                    "limit"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is the difference between 'unknown' and 'any'?",
+                "options": [
+                    "unknown is safer and requires type checking",
+                    "any is stricter than unknown",
+                    "They are identical",
+                    "unknown cannot be assigned to any variable"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which TypeScript feature allows creating a type based on the return value of a function?",
+                "options": [
+                    "ReturnType<T>",
+                    "InstanceType<T>",
+                    "ConstructorParameters<T>",
+                    "Extract<T, U>"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "React.js",
+        "title": "State & Props",
+        "questions": [
+            {
+                "text": "Which hook is used to manage state in a functional React component?",
+                "options": [
+                    "useEffect",
+                    "useState",
+                    "useContext",
+                    "useReducer"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Props in React are used to:",
+                "options": [
+                    "Store local component state",
+                    "Pass data from parent to child",
+                    "Manipulate DOM directly",
+                    "Handle component side effects"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What will happen if you try to directly modify a state variable in React?",
+                "options": [
+                    "The component will re-render automatically",
+                    "State will not change correctly",
+                    "React will throw an error",
+                    "State will become global"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which method is used in class components to update state?",
+                "options": [
+                    "setState",
+                    "updateState",
+                    "useState",
+                    "this.state = ..."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the difference between state and props?",
+                "options": [
+                    "State is immutable, props are mutable",
+                    "State is local, props are passed from parent",
+                    "State cannot change, props can",
+                    "State is used in class, props in function only"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is a controlled component in React?",
+                "options": [
+                    "A component that controls other components",
+                    "A form element whose value is controlled by React state",
+                    "A component that uses useEffect",
+                    "A component that renders conditionally"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "How do you pass data from child to parent in React?",
+                "options": [
+                    "Using props",
+                    "Using state",
+                    "Using callback functions passed via props",
+                    "Direct DOM manipulation"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which of the following is true about useEffect hook?",
+                "options": [
+                    "It replaces render method in class components",
+                    "It is used for side effects like data fetching",
+                    "It manages state",
+                    "It only runs once per component instance"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What happens if you pass an empty dependency array to useEffect?",
+                "options": [
+                    "Effect runs every render",
+                    "Effect never runs",
+                    "Effect runs only once after initial render",
+                    "Effect runs only on state update"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Lifting state up is done to:",
+                "options": [
+                    "Move state to a parent to share between children",
+                    "Convert class component to functional component",
+                    "Optimize rendering",
+                    "Handle API calls centrally"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is NOT a valid way to update state?",
+                "options": [
+                    "Using setState in class component",
+                    "Using useState setter in functional component",
+                    "Directly modifying the state variable",
+                    "Using useReducer dispatch"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Props are read-only because:",
+                "options": [
+                    "React enforces immutability for performance",
+                    "They are declared as constants",
+                    "They can only be changed using setProps",
+                    "They belong to the parent component"
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "How can you prevent a component from re-rendering unnecessarily?",
+                "options": [
+                    "Use React.memo for functional components",
+                    "Use useEffect",
+                    "Avoid props entirely",
+                    "Use state only in parent"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook would you use for complex state logic instead of multiple useState?",
+                "options": [
+                    "useEffect",
+                    "useContext",
+                    "useReducer",
+                    "useMemo"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What is the recommended way to update state based on previous state?",
+                "options": [
+                    "Directly modify the state variable",
+                    "Pass a function to the state setter",
+                    "Use a global variable",
+                    "Use useEffect only"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What will happen if a parent component re-renders?",
+                "options": [
+                    "All children re-render by default",
+                    "Only changed children re-render",
+                    "State of children resets",
+                    "Props of children are lost"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the purpose of keys in lists?",
+                "options": [
+                    "To provide unique identifiers to help React optimize re-rendering",
+                    "To add styling",
+                    "To define component state",
+                    "To link components with API data"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about functional components?",
+                "options": [
+                    "They cannot use state",
+                    "They are just JavaScript functions returning JSX",
+                    "They cannot accept props",
+                    "They are slower than class components"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Can a component have multiple state variables using useState?",
+                "options": [
+                    "Yes, you can call useState multiple times",
+                    "No, only one useState per component",
+                    "Only in class components",
+                    "Only if using Redux"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the default value of props if not provided?",
+                "options": [
+                    "null",
+                    "undefined",
+                    "empty string",
+                    "zero"
+                ],
+                "correctIndex": 1
+            }
+        ]
+    },
+    {
+        "category": "React.js",
+        "title": "Hooks & Lifecycle",
+        "questions": [
+            {
+                "text": "Which hook is used to perform side effects in functional components?",
+                "options": [
+                    "useEffect",
+                    "useState",
+                    "useMemo",
+                    "useCallback"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to memoize a value to avoid expensive recalculations?",
+                "options": [
+                    "useMemo",
+                    "useEffect",
+                    "useState",
+                    "useRef"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook returns a mutable ref object whose .current property is initialized to the passed argument?",
+                "options": [
+                    "useRef",
+                    "useMemo",
+                    "useCallback",
+                    "useState"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook allows you to optimize functions so they do not get recreated on every render?",
+                "options": [
+                    "useCallback",
+                    "useEffect",
+                    "useReducer",
+                    "useRef"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method in class components is called after the component is mounted?",
+                "options": [
+                    "componentDidMount",
+                    "componentWillMount",
+                    "render",
+                    "componentDidUpdate"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method is invoked before a component is removed from the DOM?",
+                "options": [
+                    "componentWillUnmount",
+                    "componentDidMount",
+                    "componentDidUpdate",
+                    "render"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to manage complex state logic in functional components?",
+                "options": [
+                    "useReducer",
+                    "useState",
+                    "useEffect",
+                    "useMemo"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook can be used to read the previous value of a state or prop?",
+                "options": [
+                    "useRef",
+                    "useState",
+                    "useEffect",
+                    "useMemo"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method is invoked before rendering when new props or state are received in class components?",
+                "options": [
+                    "componentWillReceiveProps",
+                    "componentDidMount",
+                    "shouldComponentUpdate",
+                    "componentDidUpdate"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method lets you prevent unnecessary re-renders?",
+                "options": [
+                    "shouldComponentUpdate",
+                    "componentDidMount",
+                    "componentWillUnmount",
+                    "render"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook can be used to persist a value across renders without causing re-renders?",
+                "options": [
+                    "useRef",
+                    "useState",
+                    "useMemo",
+                    "useEffect"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is called during rendering to memoize expensive calculations?",
+                "options": [
+                    "useMemo",
+                    "useEffect",
+                    "useReducer",
+                    "useState"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to run cleanup logic before a component unmounts?",
+                "options": [
+                    "useEffect with cleanup function",
+                    "useRef",
+                    "useState",
+                    "useMemo"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is best suited to perform API calls on component mount?",
+                "options": [
+                    "useEffect",
+                    "useState",
+                    "useMemo",
+                    "useRef"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method is invoked immediately after updating occurs in class components?",
+                "options": [
+                    "componentDidUpdate",
+                    "shouldComponentUpdate",
+                    "componentWillUnmount",
+                    "componentWillUpdate"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to synchronize state with local storage or other side effects?",
+                "options": [
+                    "useEffect",
+                    "useState",
+                    "useReducer",
+                    "useCallback"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook allows skipping re-rendering when props/state haven’t changed?",
+                "options": [
+                    "useMemo",
+                    "useEffect",
+                    "useRef",
+                    "useCallback"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method can be used to fetch data before rendering in class components?",
+                "options": [
+                    "componentDidMount",
+                    "componentWillMount",
+                    "componentWillUnmount",
+                    "render"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook should you use to store a value that doesn’t trigger re-rendering?",
+                "options": [
+                    "useRef",
+                    "useState",
+                    "useReducer",
+                    "useMemo"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which lifecycle method is deprecated in newer React versions?",
+                "options": [
+                    "componentWillMount",
+                    "componentDidMount",
+                    "componentDidUpdate",
+                    "componentWillUnmount"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "React.js",
+        "title": "Context & Redux",
+        "questions": [
+            {
+                "text": "Which React API is used to pass data through the component tree without props?",
+                "options": [
+                    "Context API",
+                    "useState",
+                    "useEffect",
+                    "Redux Toolkit"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to create a context in React?",
+                "options": [
+                    "React.createContext()",
+                    "React.useContext()",
+                    "React.Context()",
+                    "React.createStore()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook allows consuming context in functional components?",
+                "options": [
+                    "useContext",
+                    "useReducer",
+                    "useEffect",
+                    "useState"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which library is commonly used for global state management in React?",
+                "options": [
+                    "Redux",
+                    "Axios",
+                    "React Router",
+                    "Formik"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "In Redux, which function is used to create a store?",
+                "options": [
+                    "createStore",
+                    "configureStore",
+                    "createReducer",
+                    "useStore"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which object in Redux describes what happened in the app?",
+                "options": [
+                    "Action",
+                    "Reducer",
+                    "Store",
+                    "Provider"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which Redux function determines how state changes in response to actions?",
+                "options": [
+                    "Reducer",
+                    "Action",
+                    "Dispatch",
+                    "Selector"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which Redux method is used to send actions to the store?",
+                "options": [
+                    "dispatch",
+                    "subscribe",
+                    "getState",
+                    "createAction"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which component provides the Redux store to the React app?",
+                "options": [
+                    "Provider",
+                    "StoreProvider",
+                    "Connect",
+                    "Context.Provider"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook connects functional components to the Redux store?",
+                "options": [
+                    "useSelector/useDispatch",
+                    "useStore",
+                    "useState",
+                    "useContext"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the purpose of selectors in Redux?",
+                "options": [
+                    "Extract and derive data from state",
+                    "Create actions",
+                    "Update store",
+                    "Initialize reducers"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function in Redux Toolkit replaces createStore()?",
+                "options": [
+                    "configureStore",
+                    "createStore",
+                    "combineStore",
+                    "setupStore"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "In Context API, which component wraps child components to provide the context value?",
+                "options": [
+                    "Provider",
+                    "Consumer",
+                    "Dispatcher",
+                    "Connector"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to read state from the Redux store in a component?",
+                "options": [
+                    "useSelector",
+                    "useDispatch",
+                    "useContext",
+                    "useState"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which pattern does Redux follow?",
+                "options": [
+                    "Flux",
+                    "MVC",
+                    "Observer",
+                    "Singleton"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to send actions to Redux store from a component?",
+                "options": [
+                    "useDispatch",
+                    "useSelector",
+                    "useReducer",
+                    "useContext"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function combines multiple reducers into one in Redux?",
+                "options": [
+                    "combineReducers",
+                    "mergeReducers",
+                    "combineStores",
+                    "mergeStores"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "In Redux, where is the entire application state stored?",
+                "options": [
+                    "Store",
+                    "Reducer",
+                    "Action",
+                    "Context"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is a common use case for Context API over Redux?",
+                "options": [
+                    "Passing theme or locale data",
+                    "Handling large complex global state",
+                    "API calls",
+                    "Form validation"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook avoids unnecessary re-renders when consuming Redux state?",
+                "options": [
+                    "useSelector with shallowEqual",
+                    "useState",
+                    "useContext",
+                    "useMemo"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Next.js",
+        "title": "Basics & Routing",
+        "questions": [
+            {
+                "text": "Which command is used to create a new Next.js project?",
+                "options": [
+                    "npx create-next-app",
+                    "npm init next",
+                    "npx next new",
+                    "npm create-next-app"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What file in Next.js is used to define global styles?",
+                "options": [
+                    "_app.js",
+                    "_document.js",
+                    "index.js",
+                    "styles.css"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which folder is used to define API routes in Next.js?",
+                "options": [
+                    "pages/api",
+                    "api",
+                    "routes",
+                    "pages/routes"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you create a dynamic route in Next.js?",
+                "options": [
+                    "[param].js in pages folder",
+                    "param.js in pages folder",
+                    "{param}.js in pages",
+                    "pages/dynamic/param.js"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is used for client-side navigation in Next.js?",
+                "options": [
+                    "useRouter hook",
+                    "Link component",
+                    "Nav component",
+                    "router.push only"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "What is the purpose of the getStaticProps function?",
+                "options": [
+                    "Fetch data at build time for static generation",
+                    "Fetch data on every request",
+                    "Handle client-side routing",
+                    "Update component state"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What does getServerSideProps do?",
+                "options": [
+                    "Fetches data on every request for SSR",
+                    "Fetches data at build time",
+                    "Updates static HTML",
+                    "Fetches client-side data only"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the purpose of the pages/_document.js file?",
+                "options": [
+                    "To customize HTML document structure",
+                    "To add global CSS",
+                    "To define API routes",
+                    "To handle server-side rendering"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about pages in Next.js?",
+                "options": [
+                    "Each file in pages folder automatically becomes a route",
+                    "You must manually define routes",
+                    "Pages folder is optional",
+                    "Only index.js is routable"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which hook is used to access the router object in Next.js?",
+                "options": [
+                    "useRouter",
+                    "useRoute",
+                    "useNavigation",
+                    "useLink"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Next.js supports which of the following rendering methods?",
+                "options": [
+                    "Static Generation, Server-Side Rendering, Client-Side Rendering",
+                    "Only Server-Side Rendering",
+                    "Only Static Generation",
+                    "Only Client-Side Rendering"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which file would you edit to add a custom 404 page?",
+                "options": [
+                    "pages/404.js",
+                    "pages/_error.js",
+                    "pages/notfound.js",
+                    "pages/error.js"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How can you create nested routes in Next.js?",
+                "options": [
+                    "Create nested folders inside pages folder",
+                    "Use router.push with nested paths",
+                    "Use dynamic routing only",
+                    "Use _app.js only"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the default port when you run 'npm run dev' in Next.js?",
+                "options": [
+                    "3000",
+                    "8080",
+                    "5000",
+                    "8000"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which component is used for linking between pages in Next.js?",
+                "options": [
+                    "Link",
+                    "NavLink",
+                    "Anchor",
+                    "RouterLink"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about API routes?",
+                "options": [
+                    "They are server-side only and do not expose client code",
+                    "They run on the client",
+                    "They replace getServerSideProps",
+                    "They are only for static files"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you pre-render a page at build time?",
+                "options": [
+                    "Use getStaticProps",
+                    "Use getServerSideProps",
+                    "Use useEffect",
+                    "Use _app.js"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the main benefit of Next.js over plain React?",
+                "options": [
+                    "Built-in SSR and static site generation",
+                    "Smaller bundle size only",
+                    "No need for React",
+                    "Automatic Redux setup"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about getStaticPaths?",
+                "options": [
+                    "Defines dynamic routes to be pre-rendered at build time",
+                    "Fetches API data at runtime",
+                    "Updates client-side state",
+                    "Handles form submissions"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these files is optional in a Next.js project?",
+                "options": [
+                    "pages/_document.js",
+                    "pages/index.js",
+                    "package.json",
+                    "next.config.js"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Node.js",
+        "title": "Basics & Modules",
+        "questions": [
+            {
+                "text": "Which of the following is true about Node.js?",
+                "options": [
+                    "Node.js is a frontend framework",
+                    "Node.js is a runtime environment for JavaScript",
+                    "Node.js only runs in browsers",
+                    "Node.js is a database"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which module is used to handle file system operations in Node.js?",
+                "options": [
+                    "fs",
+                    "path",
+                    "http",
+                    "os"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is the correct way to import a built-in module in Node.js?",
+                "options": [
+                    "import fs from 'fs'",
+                    "const fs = require('fs')",
+                    "Both A and B",
+                    "None of the above"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which method is used to create a server in Node.js?",
+                "options": [
+                    "http.createServer()",
+                    "fs.createServer()",
+                    "net.createServer()",
+                    "server.create()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Node.js uses which programming language?",
+                "options": [
+                    "C++",
+                    "JavaScript",
+                    "Python",
+                    "Java"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which of these is NOT a feature of Node.js?",
+                "options": [
+                    "Asynchronous I/O",
+                    "Single-threaded event loop",
+                    "Multi-threaded blocking operations",
+                    "Cross-platform"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "What is npm in Node.js?",
+                "options": [
+                    "Node Package Manager",
+                    "Node Programming Module",
+                    "Next.js Package Manager",
+                    "Node Private Module"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to read a file asynchronously in Node.js?",
+                "options": [
+                    "fs.readFile()",
+                    "fs.readFileSync()",
+                    "fs.open()",
+                    "fs.read()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How can you access command line arguments in Node.js?",
+                "options": [
+                    "process.argv",
+                    "process.args",
+                    "argv.process",
+                    "args.process"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is used to export a module in Node.js?",
+                "options": [
+                    "module.exports",
+                    "export default",
+                    "exports.module",
+                    "export const"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which event is emitted when an HTTP server receives a request?",
+                "options": [
+                    "request",
+                    "connect",
+                    "data",
+                    "response"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which global object can be used to set a timeout in Node.js?",
+                "options": [
+                    "setTimeout",
+                    "timeout",
+                    "setInterval",
+                    "globalTimeout"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which module helps with handling and parsing URLs?",
+                "options": [
+                    "url",
+                    "path",
+                    "query",
+                    "http"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about Node.js buffers?",
+                "options": [
+                    "Buffers handle binary data",
+                    "Buffers are used for strings only",
+                    "Buffers are used for JSON only",
+                    "Buffers replace arrays"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to write to a file asynchronously?",
+                "options": [
+                    "fs.writeFile()",
+                    "fs.writeFileSync()",
+                    "fs.appendFile()",
+                    "fs.createWriteStream()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about the Node.js event loop?",
+                "options": [
+                    "It handles asynchronous callbacks",
+                    "It blocks execution",
+                    "It runs only in the browser",
+                    "It is optional"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which module allows creating streams in Node.js?",
+                "options": [
+                    "stream",
+                    "fs",
+                    "http",
+                    "net"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you import a local module in Node.js?",
+                "options": [
+                    "require('./module')",
+                    "import module from './module'",
+                    "Both A and B depending on setup",
+                    "Cannot import local modules"
+                ],
+                "correctIndex": 2
+            },
+            {
+                "text": "Which of these is used to handle environment variables in Node.js?",
+                "options": [
+                    "process.env",
+                    "env.process",
+                    "config.env",
+                    "environment.process"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about Node.js?",
+                "options": [
+                    "It is suitable for I/O-heavy applications",
+                    "It is best for CPU-intensive operations",
+                    "It is a frontend framework",
+                    "It cannot handle multiple connections"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Express.js",
+        "title": "Routing & Middleware",
+        "questions": [
+            {
+                "text": "Which method is used to create an Express application?",
+                "options": [
+                    "express()",
+                    "new Express()",
+                    "createExpress()",
+                    "app()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which HTTP method is used to retrieve data from a server?",
+                "options": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you define a route that responds to GET requests in Express?",
+                "options": [
+                    "app.get('/route', callback)",
+                    "app.post('/route', callback)",
+                    "app.route('/route', 'GET')",
+                    "app.use('/route')"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is middleware in Express?",
+                "options": [
+                    "A function that has access to request and response objects",
+                    "A database connection",
+                    "A frontend library",
+                    "A route handler only"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about middleware?",
+                "options": [
+                    "Middleware can execute code, modify request/response, or end request-response cycle",
+                    "Middleware can only modify HTML",
+                    "Middleware runs after sending response",
+                    "Middleware is optional in Node.js only"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to send JSON data as a response?",
+                "options": [
+                    "res.json()",
+                    "res.sendJSON()",
+                    "res.send()",
+                    "res.data()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which module is commonly used to parse request bodies in Express?",
+                "options": [
+                    "body-parser",
+                    "express-body",
+                    "req-parser",
+                    "formidable"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How can you handle 404 errors in Express?",
+                "options": [
+                    "Use a middleware at the end to catch unmatched routes",
+                    "Use try/catch in routes",
+                    "Use res.send(404) in every route",
+                    "Cannot handle 404"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the purpose of app.use()?",
+                "options": [
+                    "To mount middleware or routes",
+                    "To define a route only",
+                    "To start the server",
+                    "To send response headers"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which parameter is always passed first in middleware functions?",
+                "options": [
+                    "req",
+                    "res",
+                    "next",
+                    "app"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which parameter is used to pass control to the next middleware?",
+                "options": [
+                    "next",
+                    "res",
+                    "req",
+                    "callback"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about route parameters?",
+                "options": [
+                    "They can be accessed via req.params",
+                    "They are only in query string",
+                    "They are global variables",
+                    "They are stored in headers"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you serve static files in Express?",
+                "options": [
+                    "app.use(express.static('public'))",
+                    "app.static('public')",
+                    "res.sendFile('public')",
+                    "app.serve('public')"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to handle POST requests?",
+                "options": [
+                    "app.post()",
+                    "app.get()",
+                    "app.put()",
+                    "app.delete()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about error-handling middleware?",
+                "options": [
+                    "It has four parameters: err, req, res, next",
+                    "It has two parameters: req, res",
+                    "It is optional only for GET requests",
+                    "It cannot modify responses"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What does res.redirect('/path') do?",
+                "options": [
+                    "Redirects client to another route",
+                    "Stops middleware execution",
+                    "Sends a JSON response",
+                    "Throws an error"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about Router in Express?",
+                "options": [
+                    "Router allows modular route handling",
+                    "Router is used for frontend routing",
+                    "Router replaces app.use()",
+                    "Router only handles GET requests"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which status code is typically used for a successful GET request?",
+                "options": [
+                    "200",
+                    "404",
+                    "500",
+                    "301"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you mount a router on a specific path?",
+                "options": [
+                    "app.use('/path', router)",
+                    "router.use('/path')",
+                    "app.mount(router)",
+                    "router.path('/path')"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about query parameters?",
+                "options": [
+                    "They can be accessed via req.query",
+                    "They are stored in req.params",
+                    "They are sent in headers",
+                    "Express cannot read query parameters"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "MongoDB",
+        "title": "Basics & CRUD",
+        "questions": [
+            {
+                "text": "Which of the following is true about MongoDB?",
+                "options": [
+                    "It is a NoSQL document database",
+                    "It is a relational database",
+                    "It uses SQL queries only",
+                    "It cannot handle JSON data"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which data format does MongoDB primarily use to store documents?",
+                "options": [
+                    "BSON",
+                    "XML",
+                    "CSV",
+                    "YAML"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to insert a single document into a collection?",
+                "options": [
+                    "db.collection.insertOne()",
+                    "db.collection.add()",
+                    "db.insertOne()",
+                    "db.collection.insert()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method retrieves all documents from a collection?",
+                "options": [
+                    "db.collection.find()",
+                    "db.collection.get()",
+                    "db.findAll()",
+                    "db.collection.query()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "How do you update a document in MongoDB?",
+                "options": [
+                    "db.collection.updateOne()",
+                    "db.collection.modify()",
+                    "db.update()",
+                    "db.collection.change()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method deletes a single document from a collection?",
+                "options": [
+                    "db.collection.deleteOne()",
+                    "db.collection.remove()",
+                    "db.deleteOne()",
+                    "db.collection.del()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used to match documents with a specific field value?",
+                "options": [
+                    "$eq",
+                    "$match",
+                    "$filter",
+                    "$find"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used to update only the fields specified in the update document?",
+                "options": [
+                    "$set",
+                    "$update",
+                    "$change",
+                    "$modify"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to count documents in a collection?",
+                "options": [
+                    "db.collection.countDocuments()",
+                    "db.collection.count()",
+                    "db.collection.size()",
+                    "db.count()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command shows all collections in a database?",
+                "options": [
+                    "show collections",
+                    "db.showCollections()",
+                    "db.listCollections()",
+                    "show db.collections"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used for greater than comparison in queries?",
+                "options": [
+                    "$gt",
+                    "$gte",
+                    "$lt",
+                    "$lte"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used for less than or equal to comparison?",
+                "options": [
+                    "$lte",
+                    "$lt",
+                    "$gte",
+                    "$eq"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method retrieves the first document matching a query?",
+                "options": [
+                    "db.collection.findOne()",
+                    "db.collection.find()",
+                    "db.collection.getOne()",
+                    "db.collection.first()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to create an index on a collection?",
+                "options": [
+                    "db.collection.createIndex()",
+                    "db.collection.index()",
+                    "db.index.create()",
+                    "db.createIndex()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which aggregation stage groups documents by a specified field?",
+                "options": [
+                    "$group",
+                    "$match",
+                    "$project",
+                    "$sort"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to drop a collection?",
+                "options": [
+                    "db.collection.drop()",
+                    "db.dropCollection()",
+                    "db.collection.remove()",
+                    "db.deleteCollection()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command shows the current database?",
+                "options": [
+                    "db",
+                    "currentDb()",
+                    "db.current()",
+                    "show db"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used to check if a field exists in documents?",
+                "options": [
+                    "$exists",
+                    "$has",
+                    "$contains",
+                    "$in"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to rename a collection?",
+                "options": [
+                    "db.collection.renameCollection()",
+                    "db.collection.rename()",
+                    "db.renameCollection()",
+                    "db.rename()"
+                ],
+                "correctIndex": 1
+            },
+            {
+                "text": "Which operator is used to combine multiple conditions with logical AND?",
+                "options": [
+                    "$and",
+                    "$or",
+                    "$not",
+                    "$nor"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "MySQL",
+        "title": "Basics & Queries",
+        "questions": [
+            {
+                "text": "Which command is used to create a new database in MySQL?",
+                "options": [
+                    "CREATE DATABASE db_name;",
+                    "NEW DATABASE db_name;",
+                    "MAKE DATABASE db_name;",
+                    "INIT DATABASE db_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to create a new table?",
+                "options": [
+                    "CREATE TABLE table_name (...);",
+                    "NEW TABLE table_name (...);",
+                    "MAKE TABLE table_name (...);",
+                    "INIT TABLE table_name (...);"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to insert data into a table?",
+                "options": [
+                    "INSERT INTO table_name VALUES(...);",
+                    "ADD INTO table_name VALUES(...);",
+                    "INSERT VALUES table_name(...);",
+                    "PUT INTO table_name VALUES(...);"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to retrieve all records from a table?",
+                "options": [
+                    "SELECT * FROM table_name;",
+                    "GET * FROM table_name;",
+                    "FETCH * FROM table_name;",
+                    "SHOW * FROM table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to filter records in MySQL?",
+                "options": [
+                    "WHERE",
+                    "FILTER",
+                    "HAVING",
+                    "CONDITION"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to sort results?",
+                "options": [
+                    "ORDER BY",
+                    "SORT BY",
+                    "GROUP BY",
+                    "ARRANGE BY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command updates existing records in a table?",
+                "options": [
+                    "UPDATE table_name SET ... WHERE ...;",
+                    "MODIFY table_name SET ...;",
+                    "ALTER table_name SET ...;",
+                    "CHANGE table_name SET ...;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command deletes records from a table?",
+                "options": [
+                    "DELETE FROM table_name WHERE ...;",
+                    "REMOVE FROM table_name WHERE ...;",
+                    "DROP FROM table_name WHERE ...;",
+                    "TRUNCATE table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command removes a table completely?",
+                "options": [
+                    "DROP TABLE table_name;",
+                    "DELETE TABLE table_name;",
+                    "REMOVE TABLE table_name;",
+                    "TRUNCATE TABLE table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to group records?",
+                "options": [
+                    "GROUP BY",
+                    "ORDER BY",
+                    "WHERE",
+                    "HAVING"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause filters grouped records?",
+                "options": [
+                    "HAVING",
+                    "WHERE",
+                    "GROUP BY",
+                    "FILTER BY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to add a new column to a table?",
+                "options": [
+                    "ALTER TABLE table_name ADD column_name datatype;",
+                    "UPDATE TABLE table_name ADD column_name;",
+                    "MODIFY TABLE table_name ADD column_name;",
+                    "ADD COLUMN table_name column_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to change the data type of a column?",
+                "options": [
+                    "ALTER TABLE table_name MODIFY column_name new_datatype;",
+                    "UPDATE TABLE table_name SET column_name TYPE new_datatype;",
+                    "CHANGE TABLE table_name MODIFY column_name;",
+                    "ALTER COLUMN table_name column_name TYPE new_datatype;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which key uniquely identifies a record in a table?",
+                "options": [
+                    "PRIMARY KEY",
+                    "FOREIGN KEY",
+                    "UNIQUE KEY",
+                    "INDEX KEY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which key establishes a relationship between tables?",
+                "options": [
+                    "FOREIGN KEY",
+                    "PRIMARY KEY",
+                    "UNIQUE KEY",
+                    "INDEX KEY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function returns the total number of rows?",
+                "options": [
+                    "COUNT()",
+                    "SUM()",
+                    "TOTAL()",
+                    "ROWCOUNT()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function returns the maximum value in a column?",
+                "options": [
+                    "MAX()",
+                    "TOP()",
+                    "BIGGEST()",
+                    "HIGHEST()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function returns the minimum value in a column?",
+                "options": [
+                    "MIN()",
+                    "LOWEST()",
+                    "SMALL()",
+                    "LEAST()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to remove all records but keep the table structure?",
+                "options": [
+                    "TRUNCATE TABLE table_name;",
+                    "DELETE FROM table_name;",
+                    "DROP TABLE table_name;",
+                    "REMOVE TABLE table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command shows all tables in the current database?",
+                "options": [
+                    "SHOW TABLES;",
+                    "LIST TABLES;",
+                    "DESCRIBE TABLES;",
+                    "SELECT * FROM TABLES;"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "C / C++",
+        "title": "Basics & Syntax",
+        "questions": [
+            {
+                "text": "Which of the following is the correct way to declare a variable in C?",
+                "options": [
+                    "int a;",
+                    "a int;",
+                    "int = a;",
+                    "var a;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used to get the address of a variable?",
+                "options": [
+                    "&",
+                    "*",
+                    "#",
+                    "%"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used to dereference a pointer?",
+                "options": [
+                    "*",
+                    "&",
+                    "%",
+                    "$"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is the correct way to write a single-line comment in C/C++?",
+                "options": [
+                    "// Comment",
+                    "/* Comment */",
+                    "# Comment",
+                    "-- Comment"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function is used to print output to the console?",
+                "options": [
+                    "printf()",
+                    "cout()",
+                    "print()",
+                    "console.log()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which header file is required for printf() in C?",
+                "options": [
+                    "stdio.h",
+                    "iostream",
+                    "stdlib.h",
+                    "conio.h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about arrays in C?",
+                "options": [
+                    "Arrays store elements of the same data type",
+                    "Arrays can store different data types",
+                    "Arrays are dynamic by default",
+                    "Arrays are objects"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to define a constant in C?",
+                "options": [
+                    "const",
+                    "#define",
+                    "final",
+                    "constant"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is a valid C++ string declaration?",
+                "options": [
+                    "std::string name;",
+                    "string name;",
+                    "String name;",
+                    "char name[];"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is the correct way to declare a pointer to an int?",
+                "options": [
+                    "int *ptr;",
+                    "ptr *int;",
+                    "int ptr*;",
+                    "*int ptr;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which loop is guaranteed to execute at least once?",
+                "options": [
+                    "do-while",
+                    "while",
+                    "for",
+                    "foreach"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to define a function in C?",
+                "options": [
+                    "return_type function_name(parameters) { }",
+                    "def function_name() { }",
+                    "function function_name() { }",
+                    "func function_name() { }"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used for bitwise AND?",
+                "options": [
+                    "&",
+                    "&&",
+                    "|",
+                    "^"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a valid C++ class declaration?",
+                "options": [
+                    "class MyClass { };",
+                    "class MyClass();",
+                    "class MyClass {}",
+                    "class MyClass;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which access specifier allows members to be accessible only within the class?",
+                "options": [
+                    "private",
+                    "public",
+                    "protected",
+                    "internal"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used for inheritance in C++?",
+                "options": [
+                    ":",
+                    "extends",
+                    "implements",
+                    "inherits"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following correctly allocates memory dynamically in C?",
+                "options": [
+                    "malloc()",
+                    "new",
+                    "alloc()",
+                    "memalloc()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function is used to deallocate memory in C?",
+                "options": [
+                    "free()",
+                    "delete",
+                    "dealloc()",
+                    "memfree()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used for scope resolution in C++?",
+                "options": [
+                    "::",
+                    ".",
+                    "->",
+                    ":"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to handle exceptions in C++?",
+                "options": [
+                    "try-catch",
+                    "except",
+                    "handle",
+                    "catch-throw"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Java",
+        "title": "Basics & OOP",
+        "questions": [
+            {
+                "text": "Which of the following is the correct way to declare a variable in Java?",
+                "options": [
+                    "int a;",
+                    "a int;",
+                    "var a;",
+                    "int = a;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is the entry point of a Java program?",
+                "options": [
+                    "public static void main(String[] args)",
+                    "main()",
+                    "start()",
+                    "public void main()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a valid Java class declaration?",
+                "options": [
+                    "public class MyClass { }",
+                    "class MyClass()",
+                    "MyClass class { }",
+                    "class MyClass;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to create an object in Java?",
+                "options": [
+                    "new",
+                    "create",
+                    "object",
+                    "init"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is NOT a Java access modifier?",
+                "options": [
+                    "internal",
+                    "public",
+                    "private",
+                    "protected"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to inherit a class?",
+                "options": [
+                    "extends",
+                    "implements",
+                    "inherits",
+                    "superclass"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to implement an interface?",
+                "options": [
+                    "implements",
+                    "extends",
+                    "inherits",
+                    "interface"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following correctly defines a constant?",
+                "options": [
+                    "final int x = 10;",
+                    "const int x = 10;",
+                    "int constant x = 10;",
+                    "constant int x = 10;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to compare two strings for content equality?",
+                "options": [
+                    "equals()",
+                    "==",
+                    "compare()",
+                    "match()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to call the parent class constructor?",
+                "options": [
+                    "super",
+                    "parent",
+                    "base",
+                    "this"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about abstract classes?",
+                "options": [
+                    "Cannot be instantiated directly",
+                    "Cannot have methods",
+                    "Must have no constructors",
+                    "Cannot have variables"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to handle exceptions?",
+                "options": [
+                    "try-catch",
+                    "except",
+                    "handle",
+                    "catch-throw"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a correct way to declare an array?",
+                "options": [
+                    "int[] arr = new int[5];",
+                    "int arr[] = int[5];",
+                    "int arr = new int[5];",
+                    "array int arr[5];"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to get the length of an array?",
+                "options": [
+                    "arr.length",
+                    "arr.size()",
+                    "arr.count()",
+                    "arr.length()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword prevents a method from being overridden?",
+                "options": [
+                    "final",
+                    "static",
+                    "private",
+                    "abstract"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is used to create a thread in Java?",
+                "options": [
+                    "Extend Thread class or implement Runnable interface",
+                    "Implement Runnable only",
+                    "Extend Object class",
+                    "Use Thread.run() only"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method is used to start a thread?",
+                "options": [
+                    "start()",
+                    "run()",
+                    "init()",
+                    "execute()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about interfaces?",
+                "options": [
+                    "Cannot have instance variables",
+                    "Can be instantiated",
+                    "Cannot have methods",
+                    "Only support private methods"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used for packages in Java?",
+                "options": [
+                    "package",
+                    "import",
+                    "namespace",
+                    "module"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used to compare primitive values?",
+                "options": [
+                    "==",
+                    "equals()",
+                    "compare()",
+                    "==="
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Python",
+        "title": "Basics & Data Types",
+        "questions": [
+            {
+                "text": "Which of the following is the correct way to declare a variable in Python?",
+                "options": [
+                    "x = 10",
+                    "int x = 10",
+                    "var x = 10",
+                    "let x = 10"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is a mutable data type in Python?",
+                "options": [
+                    "List",
+                    "Tuple",
+                    "String",
+                    "Integer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is used to define a function?",
+                "options": [
+                    "def my_function():",
+                    "function my_function():",
+                    "func my_function():",
+                    "define my_function():"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about Python lists?",
+                "options": [
+                    "Lists are ordered and mutable",
+                    "Lists are immutable",
+                    "Lists cannot contain duplicates",
+                    "Lists are unordered"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator is used for exponentiation?",
+                "options": [
+                    "**",
+                    "^",
+                    "%",
+                    "//"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is used for integer division?",
+                "options": [
+                    "//",
+                    "/",
+                    "%",
+                    "**"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is a Python tuple?",
+                "options": [
+                    "(1, 2, 3)",
+                    "[1, 2, 3]",
+                    "{1, 2, 3}",
+                    "<1, 2, 3>"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method adds an element to the end of a list?",
+                "options": [
+                    "append()",
+                    "add()",
+                    "insert()",
+                    "extend()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method removes the last element from a list?",
+                "options": [
+                    "pop()",
+                    "remove()",
+                    "delete()",
+                    "discard()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is a Python dictionary?",
+                "options": [
+                    "{'key': 'value'}",
+                    "[1, 2, 3]",
+                    "(1, 2, 3)",
+                    "{1, 2, 3}"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which keyword is used to create a class?",
+                "options": [
+                    "class",
+                    "def",
+                    "object",
+                    "struct"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following correctly accesses a value from a dictionary?",
+                "options": [
+                    "dict['key']",
+                    "dict.key",
+                    "dict.getKey()",
+                    "dict(key)"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is used for conditional statements?",
+                "options": [
+                    "if, elif, else",
+                    "switch, case",
+                    "for, while",
+                    "try, except"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is used to handle exceptions?",
+                "options": [
+                    "try-except",
+                    "if-else",
+                    "switch-case",
+                    "for-while"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which operator checks equality in Python?",
+                "options": [
+                    "==",
+                    "=",
+                    "===",
+                    "eq()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about Python sets?",
+                "options": [
+                    "Sets are unordered and contain unique elements",
+                    "Sets are ordered",
+                    "Sets can have duplicate elements",
+                    "Sets are immutable"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is used to import modules?",
+                "options": [
+                    "import module_name",
+                    "include module_name",
+                    "require module_name",
+                    "use module_name"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which method returns the number of elements in a list?",
+                "options": [
+                    "len(list)",
+                    "size(list)",
+                    "count(list)",
+                    "length(list)"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about Python strings?",
+                "options": [
+                    "Strings are immutable",
+                    "Strings are mutable",
+                    "Strings are lists",
+                    "Strings cannot be concatenated"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is used to repeat a string multiple times?",
+                "options": [
+                    "*",
+                    "+",
+                    "%",
+                    "^"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "OOP Concepts",
+        "title": "Basics & Principles",
+        "questions": [
+            {
+                "text": "Which of the following is NOT an OOP principle?",
+                "options": [
+                    "Compilation",
+                    "Encapsulation",
+                    "Inheritance",
+                    "Polymorphism"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which principle restricts direct access to an object's data?",
+                "options": [
+                    "Encapsulation",
+                    "Abstraction",
+                    "Inheritance",
+                    "Polymorphism"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which OOP concept allows a child class to acquire properties of a parent class?",
+                "options": [
+                    "Inheritance",
+                    "Polymorphism",
+                    "Encapsulation",
+                    "Abstraction"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which principle allows objects to take many forms?",
+                "options": [
+                    "Polymorphism",
+                    "Encapsulation",
+                    "Inheritance",
+                    "Abstraction"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which OOP principle hides unnecessary details from the user?",
+                "options": [
+                    "Abstraction",
+                    "Encapsulation",
+                    "Inheritance",
+                    "Polymorphism"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is an example of encapsulation?",
+                "options": [
+                    "Using private variables and public getters/setters",
+                    "Overloading a method",
+                    "Extending a class",
+                    "Implementing an interface"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about polymorphism?",
+                "options": [
+                    "Methods can have the same name but behave differently",
+                    "It allows data hiding",
+                    "It prevents inheritance",
+                    "It forces all methods to be static"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which type of inheritance allows a class to inherit from multiple classes?",
+                "options": [
+                    "Multiple inheritance",
+                    "Single inheritance",
+                    "Multilevel inheritance",
+                    "Hierarchical inheritance"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which principle helps reduce code duplication?",
+                "options": [
+                    "Inheritance",
+                    "Polymorphism",
+                    "Encapsulation",
+                    "Abstraction"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which OOP feature allows method names to be reused with different parameters?",
+                "options": [
+                    "Method overloading",
+                    "Overriding",
+                    "Abstraction",
+                    "Encapsulation"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which OOP concept allows a subclass to provide a specific implementation of a method?",
+                "options": [
+                    "Method overriding",
+                    "Method overloading",
+                    "Encapsulation",
+                    "Abstraction"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is true about abstraction?",
+                "options": [
+                    "Focuses on essential features, hiding implementation details",
+                    "Makes data private",
+                    "Allows multiple objects to share same behavior",
+                    "Prevents inheritance"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is an advantage of OOP?",
+                "options": [
+                    "Code reusability and modularity",
+                    "Requires less memory than procedural code",
+                    "Faster execution than procedural code",
+                    "No need for classes"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which type of polymorphism occurs at compile-time?",
+                "options": [
+                    "Compile-time polymorphism (method overloading)",
+                    "Run-time polymorphism",
+                    "Multiple inheritance",
+                    "Encapsulation"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which type of polymorphism occurs at run-time?",
+                "options": [
+                    "Run-time polymorphism (method overriding)",
+                    "Compile-time polymorphism",
+                    "Abstraction",
+                    "Encapsulation"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about interfaces?",
+                "options": [
+                    "They define a contract that classes must follow",
+                    "They can store state directly",
+                    "They are concrete classes",
+                    "They are unrelated to OOP principles"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following allows grouping of related classes under a single name?",
+                "options": [
+                    "Packages",
+                    "Inheritance",
+                    "Encapsulation",
+                    "Polymorphism"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which principle ensures an object manages its own state?",
+                "options": [
+                    "Encapsulation",
+                    "Polymorphism",
+                    "Inheritance",
+                    "Abstraction"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which OOP concept promotes modular and maintainable code?",
+                "options": [
+                    "All of the above",
+                    "Encapsulation",
+                    "Inheritance",
+                    "Polymorphism"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is true about multilevel inheritance?",
+                "options": [
+                    "A class is derived from a derived class",
+                    "A class inherits from multiple parent classes",
+                    "A class has multiple objects",
+                    "A class cannot be inherited"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Networking",
+        "title": "Basics & OSI Model",
+        "questions": [
+            {
+                "text": "Which layer of the OSI model is responsible for routing and forwarding?",
+                "options": [
+                    "Network Layer",
+                    "Data Link Layer",
+                    "Transport Layer",
+                    "Session Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer of the OSI model handles error detection and correction?",
+                "options": [
+                    "Data Link Layer",
+                    "Application Layer",
+                    "Network Layer",
+                    "Transport Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which protocol is used to convert domain names into IP addresses?",
+                "options": [
+                    "DNS",
+                    "HTTP",
+                    "FTP",
+                    "SMTP"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which OSI layer is responsible for end-to-end communication?",
+                "options": [
+                    "Transport Layer",
+                    "Network Layer",
+                    "Data Link Layer",
+                    "Physical Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer defines how data is physically transmitted over cables and media?",
+                "options": [
+                    "Physical Layer",
+                    "Session Layer",
+                    "Network Layer",
+                    "Data Link Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which device operates primarily at the Data Link Layer?",
+                "options": [
+                    "Switch",
+                    "Router",
+                    "Hub",
+                    "Gateway"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which protocol is connection-oriented and reliable?",
+                "options": [
+                    "TCP",
+                    "UDP",
+                    "IP",
+                    "ICMP"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which protocol is connectionless and faster?",
+                "options": [
+                    "UDP",
+                    "TCP",
+                    "FTP",
+                    "SMTP"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer provides logical addressing and routing?",
+                "options": [
+                    "Network Layer",
+                    "Transport Layer",
+                    "Data Link Layer",
+                    "Application Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer is responsible for establishing, managing, and terminating sessions?",
+                "options": [
+                    "Session Layer",
+                    "Presentation Layer",
+                    "Transport Layer",
+                    "Application Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer is responsible for encryption and decryption of data?",
+                "options": [
+                    "Presentation Layer",
+                    "Session Layer",
+                    "Transport Layer",
+                    "Network Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer provides end-user services such as email and file transfer?",
+                "options": [
+                    "Application Layer",
+                    "Network Layer",
+                    "Transport Layer",
+                    "Data Link Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which protocol is used to send email from client to server?",
+                "options": [
+                    "SMTP",
+                    "IMAP",
+                    "POP3",
+                    "HTTP"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer is responsible for segmenting and reassembling data?",
+                "options": [
+                    "Transport Layer",
+                    "Network Layer",
+                    "Session Layer",
+                    "Data Link Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a private IP address range?",
+                "options": [
+                    "192.168.0.0/16",
+                    "8.8.8.8",
+                    "172.15.0.0/16",
+                    "1.1.1.1"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which protocol is used to transfer files over the network?",
+                "options": [
+                    "FTP",
+                    "HTTP",
+                    "DNS",
+                    "SMTP"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which device operates at the Network Layer?",
+                "options": [
+                    "Router",
+                    "Switch",
+                    "Hub",
+                    "Repeater"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which protocol is used for secure communication over the Internet?",
+                "options": [
+                    "HTTPS",
+                    "HTTP",
+                    "FTP",
+                    "Telnet"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer handles flow control and error handling between hosts?",
+                "options": [
+                    "Transport Layer",
+                    "Network Layer",
+                    "Data Link Layer",
+                    "Application Layer"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which layer converts data into signals for transmission over physical media?",
+                "options": [
+                    "Physical Layer",
+                    "Presentation Layer",
+                    "Session Layer",
+                    "Transport Layer"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Database",
+        "title": "Basics & SQL Queries",
+        "questions": [
+            {
+                "text": "Which command is used to create a new database?",
+                "options": [
+                    "CREATE DATABASE db_name;",
+                    "CREATE TABLE db_name;",
+                    "INSERT DATABASE db_name;",
+                    "NEW DATABASE db_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which SQL statement is used to retrieve data from a table?",
+                "options": [
+                    "SELECT * FROM table_name;",
+                    "GET * FROM table_name;",
+                    "RETRIEVE * FROM table_name;",
+                    "FETCH * FROM table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to filter records?",
+                "options": [
+                    "WHERE",
+                    "HAVING",
+                    "ORDER BY",
+                    "GROUP BY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to sort the result set?",
+                "options": [
+                    "ORDER BY",
+                    "SORT BY",
+                    "GROUP BY",
+                    "HAVING"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement adds new records to a table?",
+                "options": [
+                    "INSERT INTO table_name VALUES(...);",
+                    "UPDATE table_name VALUES(...);",
+                    "ADD INTO table_name VALUES(...);",
+                    "CREATE RECORD table_name VALUES(...);"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement modifies existing records?",
+                "options": [
+                    "UPDATE table_name SET ... WHERE ...;",
+                    "MODIFY table_name SET ...;",
+                    "CHANGE table_name SET ...;",
+                    "EDIT table_name SET ...;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement deletes records from a table?",
+                "options": [
+                    "DELETE FROM table_name WHERE ...;",
+                    "DROP table_name;",
+                    "REMOVE table_name;",
+                    "TRUNCATE table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which statement removes all records but keeps the table structure?",
+                "options": [
+                    "TRUNCATE TABLE table_name;",
+                    "DELETE FROM table_name;",
+                    "DROP TABLE table_name;",
+                    "REMOVE TABLE table_name;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which key uniquely identifies a row in a table?",
+                "options": [
+                    "PRIMARY KEY",
+                    "FOREIGN KEY",
+                    "UNIQUE KEY",
+                    "INDEX KEY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which key establishes a relationship between tables?",
+                "options": [
+                    "FOREIGN KEY",
+                    "PRIMARY KEY",
+                    "UNIQUE KEY",
+                    "INDEX KEY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function returns the total number of rows?",
+                "options": [
+                    "COUNT()",
+                    "SUM()",
+                    "TOTAL()",
+                    "ROWCOUNT()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function returns the maximum value in a column?",
+                "options": [
+                    "MAX()",
+                    "TOP()",
+                    "BIGGEST()",
+                    "HIGHEST()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which function returns the minimum value in a column?",
+                "options": [
+                    "MIN()",
+                    "LEAST()",
+                    "LOWEST()",
+                    "SMALLEST()"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to group rows that have the same values?",
+                "options": [
+                    "GROUP BY",
+                    "ORDER BY",
+                    "HAVING",
+                    "WHERE"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to filter groups after grouping?",
+                "options": [
+                    "HAVING",
+                    "WHERE",
+                    "GROUP BY",
+                    "ORDER BY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command is used to show all tables in the database?",
+                "options": [
+                    "SHOW TABLES;",
+                    "LIST TABLES;",
+                    "DESCRIBE TABLES;",
+                    "SELECT * FROM TABLES;"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which clause is used to combine rows from two or more tables?",
+                "options": [
+                    "JOIN",
+                    "MERGE",
+                    "COMBINE",
+                    "UNION ALL"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which SQL keyword ensures no duplicate rows in results?",
+                "options": [
+                    "DISTINCT",
+                    "UNIQUE",
+                    "PRIMARY",
+                    "GROUP BY"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command changes the structure of a table?",
+                "options": [
+                    "ALTER TABLE",
+                    "MODIFY TABLE",
+                    "UPDATE TABLE",
+                    "CHANGE TABLE"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which command deletes a table completely from the database?",
+                "options": [
+                    "DROP TABLE table_name;",
+                    "DELETE TABLE table_name;",
+                    "TRUNCATE TABLE table_name;",
+                    "REMOVE TABLE table_name;"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Mathematics",
+        "title": "Algebra & Arithmetic",
+        "questions": [
+            {
+                "text": "What is the value of x in the equation 2x + 5 = 13?",
+                "options": [
+                    "4",
+                    "3",
+                    "5",
+                    "6"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If y = 3x + 2, what is y when x = 4?",
+                "options": [
+                    "14",
+                    "12",
+                    "10",
+                    "16"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Simplify: 5 + 3 × 2",
+                "options": [
+                    "11",
+                    "16",
+                    "13",
+                    "10"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the sum of the first 10 natural numbers?",
+                "options": [
+                    "55",
+                    "50",
+                    "45",
+                    "60"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Solve for x: 3x - 7 = 2",
+                "options": [
+                    "3",
+                    "2",
+                    "5",
+                    "1"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the product of 7 and 8?",
+                "options": [
+                    "56",
+                    "54",
+                    "64",
+                    "48"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 5x = 25, what is x?",
+                "options": [
+                    "5",
+                    "4",
+                    "6",
+                    "10"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Simplify: 12 ÷ 3 × 2",
+                "options": [
+                    "8",
+                    "6",
+                    "4",
+                    "12"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the value of x in the equation x/4 = 3?",
+                "options": [
+                    "12",
+                    "7",
+                    "9",
+                    "10"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If x + y = 10 and x = 6, what is y?",
+                "options": [
+                    "4",
+                    "3",
+                    "5",
+                    "6"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Solve: 2(x - 3) = 8",
+                "options": [
+                    "7",
+                    "8",
+                    "6",
+                    "5"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
+                "options": [
+                    "32",
+                    "24",
+                    "30",
+                    "20"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If a = 5 and b = 3, what is a² + b²?",
+                "options": [
+                    "34",
+                    "28",
+                    "25",
+                    "30"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Simplify: (3 × 4) + 6 ÷ 2",
+                "options": [
+                    "15",
+                    "18",
+                    "12",
+                    "14"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 2x + 7 = 15, then x = ?",
+                "options": [
+                    "4",
+                    "3",
+                    "5",
+                    "6"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is 15% of 200?",
+                "options": [
+                    "30",
+                    "25",
+                    "35",
+                    "20"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the difference between 100 and 45?",
+                "options": [
+                    "55",
+                    "65",
+                    "50",
+                    "60"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Simplify: 9 × (2 + 1)",
+                "options": [
+                    "27",
+                    "24",
+                    "21",
+                    "30"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If x - 7 = 10, what is x?",
+                "options": [
+                    "17",
+                    "15",
+                    "18",
+                    "16"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "What is the remainder when 29 is divided by 5?",
+                "options": [
+                    "4",
+                    "3",
+                    "5",
+                    "2"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Mathematics",
+        "title": "Geometry & Probability",
+        "questions": [
+            {
+                "text": "What is the sum of the angles in a triangle?",
+                "options": [
+                    "180°",
+                    "90°",
+                    "360°",
+                    "270°"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A square has a side of 5 cm. What is its area?",
+                "options": [
+                    "25 cm²",
+                    "20 cm²",
+                    "15 cm²",
+                    "30 cm²"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The probability of an impossible event is:",
+                "options": [
+                    "0",
+                    "1",
+                    "0.5",
+                    "Cannot be determined"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The probability of a certain event is:",
+                "options": [
+                    "1",
+                    "0",
+                    "0.5",
+                    "Cannot be determined"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The circumference of a circle is given by:",
+                "options": [
+                    "2πr",
+                    "πr²",
+                    "πd²",
+                    "πr/2"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The area of a circle is:",
+                "options": [
+                    "πr²",
+                    "2πr",
+                    "πd",
+                    "r²/π"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A rectangle has length 8 cm and width 3 cm. Its area is:",
+                "options": [
+                    "24 cm²",
+                    "11 cm²",
+                    "22 cm²",
+                    "26 cm²"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A coin is tossed once. Probability of getting a head is:",
+                "options": [
+                    "1/2",
+                    "1/3",
+                    "1/4",
+                    "1"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A die is rolled. Probability of getting a 4 is:",
+                "options": [
+                    "1/6",
+                    "1/5",
+                    "1/4",
+                    "1/3"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The sum of interior angles of a quadrilateral is:",
+                "options": [
+                    "360°",
+                    "180°",
+                    "270°",
+                    "400°"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The area of a triangle with base 6 cm and height 4 cm is:",
+                "options": [
+                    "12 cm²",
+                    "24 cm²",
+                    "10 cm²",
+                    "8 cm²"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Probability of drawing a red card from a standard deck of 52 cards is:",
+                "options": [
+                    "1/2",
+                    "1/4",
+                    "1/3",
+                    "1/52"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The perimeter of a square with side 7 cm is:",
+                "options": [
+                    "28 cm",
+                    "21 cm",
+                    "14 cm",
+                    "35 cm"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Probability of getting an even number when a die is rolled is:",
+                "options": [
+                    "1/2",
+                    "1/3",
+                    "1/6",
+                    "2/3"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A rectangle has length 10 cm and width 5 cm. Its perimeter is:",
+                "options": [
+                    "30 cm",
+                    "15 cm",
+                    "25 cm",
+                    "20 cm"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Sum of angles in a pentagon is:",
+                "options": [
+                    "540°",
+                    "360°",
+                    "720°",
+                    "450°"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The probability of selecting a king from a standard deck of cards is:",
+                "options": [
+                    "1/13",
+                    "1/12",
+                    "1/52",
+                    "1/4"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "The area of a rectangle is given by:",
+                "options": [
+                    "length × width",
+                    "2 × (length + width)",
+                    "length + width",
+                    "length / width"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A triangle has sides 3 cm, 4 cm, and 5 cm. Its perimeter is:",
+                "options": [
+                    "12 cm",
+                    "10 cm",
+                    "11 cm",
+                    "9 cm"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Probability of selecting an ace from a deck of 52 cards is:",
+                "options": [
+                    "1/13",
+                    "1/12",
+                    "1/52",
+                    "1/4"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Grammar",
+        "title": "Basics",
+        "questions": [
+            {
+                "text": "Which of the following is a noun?",
+                "options": [
+                    "Apple",
+                    "Run",
+                    "Beautiful",
+                    "Quickly"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a verb?",
+                "options": [
+                    "Run",
+                    "Book",
+                    "Happy",
+                    "Table"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is an adjective?",
+                "options": [
+                    "Beautiful",
+                    "Run",
+                    "Apple",
+                    "Quickly"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is an adverb?",
+                "options": [
+                    "Quickly",
+                    "Happy",
+                    "Run",
+                    "Book"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the correct sentence:",
+                "options": [
+                    "She goes to school.",
+                    "She go to school.",
+                    "She going to school.",
+                    "She gone to school."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a pronoun?",
+                "options": [
+                    "He",
+                    "Apple",
+                    "Run",
+                    "Beautiful"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the proper conjunction:",
+                "options": [
+                    "And",
+                    "Apple",
+                    "Quickly",
+                    "Blue"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence uses correct subject-verb agreement?",
+                "options": [
+                    "The cat runs fast.",
+                    "The cat run fast.",
+                    "The cats runs fast.",
+                    "The cat running fast."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the article in the sentence: 'I saw a dog.'",
+                "options": [
+                    "a",
+                    "I",
+                    "dog",
+                    "saw"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is an interjection?",
+                "options": [
+                    "Wow!",
+                    "Apple",
+                    "Run",
+                    "Beautiful"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence is in past tense?",
+                "options": [
+                    "She walked to the park.",
+                    "She walks to the park.",
+                    "She is walking to the park.",
+                    "She will walk to the park."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is a preposition?",
+                "options": [
+                    "On",
+                    "Run",
+                    "Happy",
+                    "Apple"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the correct plural form of 'child':",
+                "options": [
+                    "Children",
+                    "Childs",
+                    "Childes",
+                    "Child"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the correct comparative adjective:",
+                "options": [
+                    "Bigger",
+                    "Biggest",
+                    "Bigly",
+                    "Big"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the subject in: 'The dog barked loudly.'",
+                "options": [
+                    "The dog",
+                    "Barked",
+                    "Loudly",
+                    "Dog barked"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the correct possessive form:",
+                "options": [
+                    "John's book",
+                    "John book",
+                    "Johns book",
+                    "Johns' book"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence is interrogative?",
+                "options": [
+                    "Do you like apples?",
+                    "I like apples.",
+                    "Apples are tasty.",
+                    "She likes apples."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these is a proper noun?",
+                "options": [
+                    "London",
+                    "city",
+                    "country",
+                    "river"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the object in: 'She kicked the ball.'",
+                "options": [
+                    "The ball",
+                    "She",
+                    "Kicked",
+                    "Ball kicked"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the correct negative sentence:",
+                "options": [
+                    "She does not like apples.",
+                    "She likes not apples.",
+                    "She no likes apples.",
+                    "She not likes apples."
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Grammar",
+        "title": "Advanced Grammar",
+        "questions": [
+            {
+                "text": "Identify the correctly punctuated sentence:",
+                "options": [
+                    "I went to the store, and bought apples.",
+                    "I went to the store and bought apples",
+                    "I went, to the store and bought apples",
+                    "I went to the store and, bought apples"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the sentence with correct subject-verb agreement:",
+                "options": [
+                    "Neither of the boys is ready.",
+                    "Neither of the boys are ready.",
+                    "Neither of the boys be ready.",
+                    "Neither of the boys were ready."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the correctly formed sentence in passive voice:",
+                "options": [
+                    "The cake was eaten by the children.",
+                    "The cake eaten by the children.",
+                    "The cake is eat by the children.",
+                    "The cake being eaten by the children."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence uses the correct conditional form?",
+                "options": [
+                    "If I had known, I would have called.",
+                    "If I knew, I would have called.",
+                    "If I know, I would have called.",
+                    "If I know, I will have called."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the correct use of a semicolon:",
+                "options": [
+                    "I went to the store; I bought milk.",
+                    "I went to the store, I bought milk.",
+                    "I went to the store: I bought milk.",
+                    "I went to the store. I; bought milk."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the sentence with correct parallel structure:",
+                "options": [
+                    "She likes reading, writing, and jogging.",
+                    "She likes reading, to write, and jogging.",
+                    "She likes reading, writing, and to jog.",
+                    "She likes reading, writing, and jog."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of these sentences uses correct subjunctive mood?",
+                "options": [
+                    "I suggest that he study more.",
+                    "I suggest that he studies more.",
+                    "I suggest he studies more.",
+                    "I suggest he studying more."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the sentence with correct modifier placement:",
+                "options": [
+                    "She nearly drove the car for two hours.",
+                    "She drove nearly the car for two hours.",
+                    "She drove the car nearly for two hours.",
+                    "She drove the car for nearly two hours."
+                ],
+                "correctIndex": 3
+            },
+            {
+                "text": "Choose the correct usage of 'who' or 'whom':",
+                "options": [
+                    "To whom did you speak?",
+                    "To who did you speak?",
+                    "By whom spoke you?",
+                    "Who did you speak to?"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence correctly uses 'affect' vs 'effect'?",
+                "options": [
+                    "The weather will affect our plans.",
+                    "The weather will effect our plans.",
+                    "The weather will affects our plans.",
+                    "The weather is effecting our plans."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the sentence with correct use of articles:",
+                "options": [
+                    "She adopted a cat from the shelter.",
+                    "She adopted cat from shelter.",
+                    "She adopted an cat from the shelter.",
+                    "She adopted the cat from shelter."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the correct sentence with reported speech:",
+                "options": [
+                    "He said that he was tired.",
+                    "He said he is tired.",
+                    "He said that he is tired.",
+                    "He said he were tired."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence correctly uses a relative clause?",
+                "options": [
+                    "The book that I borrowed was interesting.",
+                    "The book, I borrowed, was interesting.",
+                    "The book which I borrowed it was interesting.",
+                    "The book I borrowed it was interesting."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the correctly punctuated complex sentence:",
+                "options": [
+                    "Although it was raining, we went for a walk.",
+                    "Although it was raining we went for a walk",
+                    "Although, it was raining we went for a walk.",
+                    "Although it was raining; we went for a walk."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the sentence with correct tense consistency:",
+                "options": [
+                    "She was reading a book when the phone rang.",
+                    "She is reading a book when the phone rang.",
+                    "She reads a book when the phone rang.",
+                    "She read a book when the phone rings."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence correctly uses a colon?",
+                "options": [
+                    "She brought three things: a pen, a notebook, and a ruler.",
+                    "She brought three things; a pen, a notebook, and a ruler.",
+                    "She brought three things, a pen: a notebook, and a ruler.",
+                    "She brought: three things, a pen, a notebook, and a ruler."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Select the sentence with correct comparative adjective usage:",
+                "options": [
+                    "This book is more interesting than that one.",
+                    "This book is interesting than that one.",
+                    "This book is most interesting than that one.",
+                    "This book is interesting than that one."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Choose the correct sentence using passive voice:",
+                "options": [
+                    "The letter was written by her.",
+                    "The letter wrote by her.",
+                    "The letter is wrote by her.",
+                    "The letter writing by her."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which sentence uses a correct conditional form?",
+                "options": [
+                    "If it rains, we will cancel the picnic.",
+                    "If it will rain, we cancel the picnic.",
+                    "If it rained, we will cancel the picnic.",
+                    "If it rain, we will cancel the picnic."
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Identify the sentence with correct ellipsis usage:",
+                "options": [
+                    "I was thinking… maybe we should wait.",
+                    "I was thinking, maybe… we should wait.",
+                    "I was… thinking maybe we should wait.",
+                    "I was thinking maybe we… should wait."
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Aptitude / Logical Reasoning",
+        "title": "Time & Work",
+        "questions": [
+            {
+                "text": "If A can complete a work in 10 days, how much work can A complete in 4 days?",
+                "options": [
+                    "2/5",
+                    "1/4",
+                    "3/5",
+                    "1/2"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A and B can do a work in 12 days together and A alone can do it in 20 days, how long will B take to do it alone?",
+                "options": [
+                    "30 days",
+                    "32 days",
+                    "28 days",
+                    "24 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 5 men can complete a work in 15 days, how many days will 3 men take to complete the same work?",
+                "options": [
+                    "25 days",
+                    "24 days",
+                    "20 days",
+                    "30 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A completes 60% of work in 3 days, how many days will A take to complete the whole work?",
+                "options": [
+                    "5 days",
+                    "4 days",
+                    "6 days",
+                    "7 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A can do a work in 8 days, B in 12 days. How long will they take together?",
+                "options": [
+                    "4.8 days",
+                    "5 days",
+                    "4 days",
+                    "6 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A, B, and C can complete a work in 6, 8, and 12 days respectively, how long will they take together?",
+                "options": [
+                    "24/7 days",
+                    "20/7 days",
+                    "22/7 days",
+                    "18/7 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A does 1/3 of a work in 5 days, how long will A take to finish it?",
+                "options": [
+                    "15 days",
+                    "12 days",
+                    "18 days",
+                    "20 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A completes a work in 10 days and B in 15 days, how long will they take to complete half of the work together?",
+                "options": [
+                    "3 days",
+                    "3.5 days",
+                    "4 days",
+                    "4.5 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 6 men can do a work in 10 days, how many men are required to finish the same work in 5 days?",
+                "options": [
+                    "12 men",
+                    "10 men",
+                    "8 men",
+                    "15 men"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A can do a work in 12 days, B alone can do the same in 16 days. In how many days can they complete the work together?",
+                "options": [
+                    "6.86 days",
+                    "7 days",
+                    "6 days",
+                    "8 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A works for 4 days and B completes the remaining work in 6 days, find total days to finish the work if both worked together.",
+                "options": [
+                    "10 days",
+                    "9 days",
+                    "8 days",
+                    "12 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A can do a work in 9 days and B can do it in 12 days, how much work is done by both in 3 days?",
+                "options": [
+                    "7/6",
+                    "1",
+                    "3/4",
+                    "5/6"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A completes 40% of a work in 4 days, how long will the entire work take?",
+                "options": [
+                    "10 days",
+                    "8 days",
+                    "9 days",
+                    "12 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A can do a work in 5 days and B can do it in 10 days. A starts the work and B joins after 2 days. Total time to complete the work is:",
+                "options": [
+                    "4 days",
+                    "3 days",
+                    "5 days",
+                    "6 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 8 men can finish a work in 12 days, how many men are required to finish it in 8 days?",
+                "options": [
+                    "12 men",
+                    "10 men",
+                    "14 men",
+                    "16 men"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A can do a work in 20 days, B alone can do it in 30 days. They work on alternate days, starting with A. How long will it take to complete the work?",
+                "options": [
+                    "17 days",
+                    "18 days",
+                    "16 days",
+                    "15 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A can do 1/4 of work in 3 days, B can do 1/3 of work in 4 days. How long will they take together to complete the work?",
+                "options": [
+                    "12 days",
+                    "10 days",
+                    "8 days",
+                    "15 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 10 men can do a work in 15 days, 15 women can do the same work in 20 days. 5 men and 10 women work together. How many days to complete the work?",
+                "options": [
+                    "12 days",
+                    "10 days",
+                    "15 days",
+                    "8 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A can do a work in 8 days. B is twice as efficient as A. How long will B take to complete the work alone?",
+                "options": [
+                    "4 days",
+                    "5 days",
+                    "3 days",
+                    "6 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A can do a work in 6 days, B can do it in 8 days, C in 12 days. They work alternately, starting with A. Time to complete the work is:",
+                "options": [
+                    "4 days",
+                    "3.5 days",
+                    "5 days",
+                    "6 days"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Aptitude / Logical Reasoning",
+        "title": "Distance & Speed",
+        "questions": [
+            {
+                "text": "A car travels 150 km in 3 hours. What is its speed?",
+                "options": [
+                    "50 km/h",
+                    "45 km/h",
+                    "55 km/h",
+                    "60 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A train travels 120 km in 2 hours. What is the average speed?",
+                "options": [
+                    "60 km/h",
+                    "55 km/h",
+                    "50 km/h",
+                    "65 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If a car travels 180 km in 4 hours, what is the speed?",
+                "options": [
+                    "45 km/h",
+                    "50 km/h",
+                    "40 km/h",
+                    "60 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A man walks 5 km north and then 12 km east. What is the distance from the starting point?",
+                "options": [
+                    "13 km",
+                    "12 km",
+                    "10 km",
+                    "15 km"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A train travels 240 km at a speed of 60 km/h. How much time will it take?",
+                "options": [
+                    "4 hours",
+                    "5 hours",
+                    "3 hours",
+                    "6 hours"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A cyclist travels 45 km at a speed of 15 km/h. Time taken is:",
+                "options": [
+                    "3 hours",
+                    "2 hours",
+                    "4 hours",
+                    "5 hours"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If a car covers 150 km in 2.5 hours, its speed is:",
+                "options": [
+                    "60 km/h",
+                    "50 km/h",
+                    "55 km/h",
+                    "65 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A boat travels 20 km downstream in 2 hours and returns upstream in 4 hours. What is the speed of the boat in still water?",
+                "options": [
+                    "5 km/h",
+                    "6 km/h",
+                    "7 km/h",
+                    "8 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A train covers 150 km at 50 km/h. How long will it take?",
+                "options": [
+                    "3 hours",
+                    "2 hours",
+                    "4 hours",
+                    "3.5 hours"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A man can row 6 km/hr in still water. Stream flows at 2 km/hr. Speed downstream is:",
+                "options": [
+                    "8 km/h",
+                    "4 km/h",
+                    "6 km/h",
+                    "10 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Speed of a train is 72 km/h. How much time will it take to cover 36 km?",
+                "options": [
+                    "0.5 hour",
+                    "1 hour",
+                    "0.75 hour",
+                    "0.25 hour"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A car moves 60 km north and 80 km east. Distance from starting point is:",
+                "options": [
+                    "100 km",
+                    "120 km",
+                    "90 km",
+                    "80 km"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A man walks 12 km at 4 km/h and 12 km at 6 km/h. Average speed is:",
+                "options": [
+                    "4.8 km/h",
+                    "5 km/h",
+                    "4 km/h",
+                    "5.2 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A train takes 2 hours less to cover 360 km at a speed of 60 km/h than at 45 km/h. Time saved is:",
+                "options": [
+                    "2 hours",
+                    "1.5 hours",
+                    "2.5 hours",
+                    "3 hours"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A person travels 40 km at 8 km/h and returns at 12 km/h. Average speed for the round trip is:",
+                "options": [
+                    "9.6 km/h",
+                    "10 km/h",
+                    "9 km/h",
+                    "8.5 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A car travels 60 km at 30 km/h and 60 km at 60 km/h. Average speed is:",
+                "options": [
+                    "40 km/h",
+                    "45 km/h",
+                    "50 km/h",
+                    "35 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A man covers 15 km in 3 hours and 25 km in 5 hours. Average speed is:",
+                "options": [
+                    "5 km/h",
+                    "6 km/h",
+                    "4 km/h",
+                    "7 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A train 200 m long crosses a pole in 10 seconds. Speed of train is:",
+                "options": [
+                    "72 km/h",
+                    "60 km/h",
+                    "65 km/h",
+                    "70 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A boat goes 24 km downstream in 3 hours and returns in 4 hours. Speed of stream is:",
+                "options": [
+                    "2 km/h",
+                    "3 km/h",
+                    "4 km/h",
+                    "1.5 km/h"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A car travels 90 km at 45 km/h and 60 km at 30 km/h. Average speed is:",
+                "options": [
+                    "36 km/h",
+                    "40 km/h",
+                    "38 km/h",
+                    "35 km/h"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Aptitude / Logical Reasoning",
+        "title": "Seating Arrangement",
+        "questions": [
+            {
+                "text": "Five people A, B, C, D, E sit in a row. B sits to the left of C and right of D. Who sits in the middle?",
+                "options": [
+                    "B",
+                    "C",
+                    "D",
+                    "A"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Six friends sit around a circular table. F is opposite A, B is to the left of F. Who is to the right of A?",
+                "options": [
+                    "B",
+                    "C",
+                    "D",
+                    "E"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Seven people sit in a row. G sits third from the left, H sits fifth from the right. How many people are there between G and H?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Four people sit facing north. A is to the right of B, C is opposite A. Who sits opposite B?",
+                "options": [
+                    "D",
+                    "A",
+                    "C",
+                    "B"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Five people sit in a row. E sits at one end. B sits second from the other end. Who sits in the middle?",
+                "options": [
+                    "C",
+                    "A",
+                    "B",
+                    "D"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Six people sit in a circle. A is opposite B. C sits to the left of D. Who is opposite C?",
+                "options": [
+                    "F",
+                    "E",
+                    "B",
+                    "A"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Eight people sit in a row. D is third from the left. E is fifth from the right. How many people sit between D and E?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Four people sit around a table facing each other. A is opposite B. C is to the right of A. Who is opposite C?",
+                "options": [
+                    "D",
+                    "B",
+                    "A",
+                    "C"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Seven friends sit in a row. P sits second from the left, Q sits third from the right. How many people are between P and Q?",
+                "options": [
+                    "3",
+                    "2",
+                    "4",
+                    "1"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Five people sit around a circular table. A sits opposite C. B is to the left of D. Who is to the right of A?",
+                "options": [
+                    "D",
+                    "B",
+                    "C",
+                    "E"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Six people sit in a row. A sits third from the left. B sits second from the right. How many people sit between A and B?",
+                "options": [
+                    "2",
+                    "3",
+                    "1",
+                    "4"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Four people sit in a row. C is to the right of D, B is to the left of C. Who sits at the right end?",
+                "options": [
+                    "C",
+                    "D",
+                    "A",
+                    "B"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Seven people sit around a circular table. E sits opposite B. D sits to the left of C. Who is opposite D?",
+                "options": [
+                    "F",
+                    "A",
+                    "B",
+                    "C"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Five people sit in a row. A is to the right of B, C is at the left end. Who sits at the right end?",
+                "options": [
+                    "D",
+                    "A",
+                    "B",
+                    "E"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Six friends sit in a circle. F is to the right of A. C is opposite D. Who is opposite F?",
+                "options": [
+                    "B",
+                    "C",
+                    "D",
+                    "E"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Seven people sit in a row. P sits fourth from the left. Q sits third from the right. Who sits in the middle?",
+                "options": [
+                    "R",
+                    "P",
+                    "Q",
+                    "S"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Four people sit around a table. A sits opposite B. C is to the left of D. Who is opposite C?",
+                "options": [
+                    "B",
+                    "A",
+                    "D",
+                    "C"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Five people sit in a row. B is second from the left. D is fourth from the right. Who sits in the middle?",
+                "options": [
+                    "C",
+                    "B",
+                    "D",
+                    "E"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Six people sit around a circular table. A sits opposite B. C is to the left of D. Who sits opposite C?",
+                "options": [
+                    "F",
+                    "E",
+                    "B",
+                    "A"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Seven friends sit in a row. R sits third from the left. S sits fifth from the right. How many people sit between R and S?",
+                "options": [
+                    "2",
+                    "3",
+                    "1",
+                    "4"
+                ],
+                "correctIndex": 0
+            }
+        ]
+    },
+    {
+        "category": "Aptitude / Logical Reasoning",
+        "title": "Puzzles & Logical Reasoning",
+        "questions": [
+            {
+                "text": "If all roses are flowers and all flowers are plants, are all roses plants?",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Cannot be determined",
+                    "Some roses are not plants"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 2 pencils cost 6 rupees, how much do 5 pencils cost?",
+                "options": [
+                    "15",
+                    "12",
+                    "10",
+                    "18"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which number comes next in the series: 2, 4, 8, 16, ...?",
+                "options": [
+                    "32",
+                    "24",
+                    "30",
+                    "28"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If today is Monday, what day will it be after 50 days?",
+                "options": [
+                    "Wednesday",
+                    "Tuesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If A is taller than B, B is taller than C, who is the tallest?",
+                "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "Cannot be determined"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A clock shows 3:15. What is the angle between hour and minute hands?",
+                "options": [
+                    "7.5°",
+                    "10°",
+                    "15°",
+                    "5°"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 5 workers can complete a task in 10 days, how many days will 10 workers take?",
+                "options": [
+                    "5",
+                    "10",
+                    "8",
+                    "6"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which number is missing in the series: 3, 6, 12, 24, ?",
+                "options": [
+                    "48",
+                    "36",
+                    "60",
+                    "50"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If a train travels 60 km in 1 hour, how long will it take to travel 90 km?",
+                "options": [
+                    "1.5 hours",
+                    "2 hours",
+                    "1 hour",
+                    "1.25 hours"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Find the odd one out: 2, 4, 8, 16, 18",
+                "options": [
+                    "18",
+                    "16",
+                    "8",
+                    "4"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If the day after tomorrow is two days before Thursday, what day is today?",
+                "options": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Sunday"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A bag contains 3 red, 4 blue, and 5 green balls. Probability of picking a blue ball?",
+                "options": [
+                    "4/12",
+                    "3/12",
+                    "5/12",
+                    "1/3"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 8 workers can finish a work in 12 days, how long will 6 workers take?",
+                "options": [
+                    "16 days",
+                    "14 days",
+                    "18 days",
+                    "12 days"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Find the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+                "options": [
+                    "13",
+                    "12",
+                    "15",
+                    "10"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If 7x + 5 = 26, what is x?",
+                "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "2"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which shape does not belong in the group: Circle, Triangle, Square, Sphere?",
+                "options": [
+                    "Sphere",
+                    "Circle",
+                    "Triangle",
+                    "Square"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "A jar contains 10 red, 15 green, and 5 blue marbles. Probability of picking a red marble?",
+                "options": [
+                    "1/3",
+                    "1/4",
+                    "1/2",
+                    "1/5"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Find the missing number: 5, 10, 20, 40, ?",
+                "options": [
+                    "80",
+                    "75",
+                    "100",
+                    "60"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "If a train leaves at 9 AM and takes 5 hours to reach, what time does it arrive?",
+                "options": [
+                    "2 PM",
+                    "1 PM",
+                    "3 PM",
+                    "12 PM"
+                ],
+                "correctIndex": 0
+            },
+            {
+                "text": "Which of the following is a logical sequence: 2, 6, 12, 20, ?",
+                "options": [
+                    "30",
+                    "28",
+                    "32",
+                    "24"
+                ],
+                "correctIndex": 0
+            }
+        ]
     }
 ]

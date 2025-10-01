@@ -134,7 +134,7 @@ const QuizPage = () => {
                 />
             )}
 
-            <main id="main-content" className="w-full h-full " role="main">
+            <main id="main-content" className="w-full h-full" role="main">
                 <div className="w-full bg-dark-bg text-white py-3 px-3 sm:px-6 md:px-8 lg:px-10 mb-8">
                     <h1 className="block md:hidden mb-2 font-semibold text-2xl sm:text-3xl text-center flex-1">
                         {quiz.title}

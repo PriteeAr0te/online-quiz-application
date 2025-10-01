@@ -19,7 +19,7 @@ import DatabasesImg from "../assets/img/database.png";
 import MathematicsImg from "../assets/img/maths.png";
 import GrammarImg from "../assets/img/grammar.png";
 import AptitudeImg from "../assets/img/aptitude.png";
-import ExamImg from "../assets/img/exam.png";
+import DefaultImg from "../assets/img/exam.png";
 import TailwindImg from "../assets/img/tailwind.png";
 
 const categoryImages: Record<string, { img: string; color: string }> = {
@@ -35,11 +35,11 @@ const categoryImages: Record<string, { img: string; color: string }> = {
     img: JavaScriptImg,
     color: 'from-amber-500/85 to-yellow-500/85'
   },
-  "React": {
+  "React.js": {
     img: ReactImg,
     color: 'from-yellow-500/85 to-lime-500/85'
   },
-  "Next": {
+  "Next.js": {
     img: NextImg,
     color: 'from-lime-500/85 to-green-500/85'
   },
@@ -47,11 +47,11 @@ const categoryImages: Record<string, { img: string; color: string }> = {
     img: TypeScriptImg,
     color: 'from-green-500/85 to-emerald-500/85'
   },
-  "NodeJS": {
+  "Node.js": {
     img: NodeImg,
     color: 'from-emerald-500/85 to-teal-500/85'
   },
-  "Express": {
+  "Express.js": {
     img: ExpressImg,
     color: 'from-teal-500/85 to-cyan-500/85'
   },
@@ -59,11 +59,11 @@ const categoryImages: Record<string, { img: string; color: string }> = {
     img: MongoDBImg,
     color: 'from-cyan-500/85 to-sky-500/85'
   },
-  "MYSQL": {
+  "MySQL": {
     img: MYSQLImg,
     color: 'from-sky-500/85 to-blue-500/85'
   },
-  "C/C++": {
+  "C / C++": {
     img: CImg,
     color: 'from-blue-500/85 to-indigo-500/85'
   },
@@ -83,7 +83,7 @@ const categoryImages: Record<string, { img: string; color: string }> = {
     img: NetworkingImg,
     color: 'from-fuchsia-500/85 to-pink-500/85'
   },
-  "Databases": {
+  "Database": {
     img: DatabasesImg,
     color: 'from-pink-500/85 to-rose-500/85'
   },
@@ -104,19 +104,17 @@ const categoryImages: Record<string, { img: string; color: string }> = {
     color: 'from-neutral-500/85 to-stone-500/85'
   },
   default: {
-    img: ExamImg,
+    img: DefaultImg,
     color: 'from-orange-500/85 to-red-500/85'
   },
 };
 
-
 const CategoryCard = ({ category, quizCount }: Category) => {
-
   const { img, color } = categoryImages[category] || categoryImages.default;
 
   return (
     <Link
-      to={`/category/${category}`}
+      to={`/category/${encodeURIComponent(category)}`}
       className={`rounded-xl p-4 cursor-pointer bg-gradient-to-br ${color} hover:shadow-lg transition-all duration-300 ease-in-out hover:scale-105 relative group overflow-hidden`}
     >
       <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
