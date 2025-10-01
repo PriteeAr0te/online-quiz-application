@@ -70,7 +70,7 @@ npm install --prefix frontend
   - `PORT`=5000 (optional; defaults to 5000)
 
 - Frontend `frontend/.env`:
-  - `VITE_BASE_URL`=http://localhost:5000/api/quiz
+  - `VITE_BASE_URL`=https://online-quiz-application-duig.onrender.com/api/quiz
 
 3) Seed data (optional)
 
@@ -122,7 +122,7 @@ The backend enables CORS for `http://localhost:5173` in `backend/src/app.ts`.
 
 ## API Reference
 
-Base URL: `http://localhost:5000/api/quiz`
+Base URL: `https://online-quiz-application-duig.onrender.com/api/quiz`
 
 - GET `/`
   - Returns quiz categories with counts.
@@ -202,7 +202,7 @@ Serve the frontend’s built assets behind a reverse proxy (e.g., Nginx) and con
 ## Configuration notes
 
 - CORS is currently configured in `backend/src/app.ts` to allow `http://localhost:5173` with credentials.
-- Frontend Axios instance (`frontend/src/lib/api.ts`) uses `VITE_BASE_URL` or falls back to `http://localhost:5000/api/quiz`.
+- Frontend Axios instance (`frontend/src/lib/api.ts`) uses `VITE_BASE_URL` or falls back to `https://online-quiz-application-duig.onrender.com/api/quiz`.
 - The backend omits `questions.correctIndex` in GET responses to prevent answer leakage; scoring occurs server‑side on submit.
 
 ---

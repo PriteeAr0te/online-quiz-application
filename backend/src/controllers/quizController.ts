@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
 import Quiz, { IQuiz } from "../models/Quiz";
-import { calculateScore } from "scoring";
+import { calculateScore } from "../scoring";
 
 
 export const getAllCategories = async (_req: Request, res: Response): Promise<void> => {
